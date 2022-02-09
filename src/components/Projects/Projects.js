@@ -1,6 +1,8 @@
+/* eslint-disable @next/next/link-passhref */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -39,7 +41,7 @@ const Projects = () => {
           <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="/health-info.jpg"
+              src="/health-info.webp"
               alt="health worker on a computer"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-700 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -59,7 +61,7 @@ const Projects = () => {
           <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="/teacher-absent.jpg"
+              src="/teacher-absent.webp"
               alt="teacher writing on chalkboard"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-700 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -79,7 +81,7 @@ const Projects = () => {
           <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="/civil-reg.jpg"
+              src="/civil-reg.webp"
               alt="Screen displaying statistics"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-700 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -99,7 +101,7 @@ const Projects = () => {
           <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="/landscape-nigeria.jpg"
+              src="/landscape-nigeria.webp"
               alt="street view nigeria"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-700 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -117,20 +119,23 @@ const Projects = () => {
           </div>
         </a>
       </div>
-      <div className="text-center">
-        <a
+      <div className="text-center text-indigo-700 hover:text-indigo-900 cursor-pointer">
+        <Link
+          href="/projects"
           aria-label=""
           className="inline-flex items-center font-semibold transition-colors duration-200 text-indigo-700 hover:text-indigo-900"
         >
-          View projects
-          <svg
-            className="inline-block w-3 ml-2"
-            fill="currentColor"
-            viewBox="0 0 12 12"
-          >
-            <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-          </svg>
-        </a>
+          <div>
+            View projects
+            <svg
+              className="inline-block w-3 ml-2"
+              fill="currentColor"
+              viewBox="0 0 12 12"
+            >
+              <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+            </svg>
+          </div>
+        </Link>
       </div>
     </div>
   );

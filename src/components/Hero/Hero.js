@@ -18,28 +18,27 @@ const Hero = ({ headerPix, title, titleHighlighted, subtitle }) => {
           <div className="mt-10 lg:mt-20 mb-20">
             <h2 className="max-w-lg mb-8 text-3xl  md:text-4xl md:leading-tight lg:text-5xl lg:leading-normal font-bold font-heading">
               {title}
-              <div>
-                <RoughNotation
-                  type="highlight"
-                  multiline={true}
-                  padding={[0, 2]}
-                  iterations={1}
-                  strokeWidth={2}
-                  animationDuration={2000}
-                  color="#F59E0B"
-                  show={true}
-                  animationDelay={500}
-                >
-                  <strong>{titleHighlighted}</strong>
-                </RoughNotation>
-              </div>
+
+              <RoughNotation
+                type="highlight"
+                multiline={true}
+                padding={[0, 2]}
+                iterations={1}
+                strokeWidth={2}
+                animationDuration={2000}
+                color="#F59E0B"
+                show={true}
+                animationDelay={500}
+              >
+                <strong>{titleHighlighted}</strong>
+              </RoughNotation>
             </h2>
             <p className="max-w-lg mb-8 text-base leading-relaxed lg:text-xl lg:leading-relaxed text-gray-500">
               {subtitle}
             </p>
             <div>
               <a className="inline-flex items-center justify-center w-full h-12 p-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-700 hover:bg-indigo-900 focus:shadow-outline focus:outline-none">
-                Our services
+                Get started
               </a>
               <a
                 className="block md:inline-block px-5 py-3 text-sm text-center font-semibold text-indigo-700 hover:text-white hover:bg-indigo-900 border border-indigo-700 hover:border-indigo-900 rounded transition duration-200"

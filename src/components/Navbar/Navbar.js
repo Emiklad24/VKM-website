@@ -45,46 +45,22 @@ const Navbar = () => {
       </div>
       <div className="hidden lg:flex w-auto lg:w-3/5 lg:pl-16 ml-auto">
         <ul className="flex items-center space-x-12">
-          <li>
-            <Link
-              className="text-sm hover:text-indigo-700 font-medium"
-              href="/"
-            >
-              Home
-            </Link>
+          <li className="text-sm hover:text-indigo-700 font-medium">
+            <Link href="/">Home</Link>
           </li>
-          <li>
-            <Link
-              className="text-sm hover:text-indigo-700 font-medium font-sans"
-              href="/about"
-            >
-              About
-            </Link>
+          <li className="text-sm hover:text-indigo-700 font-medium">
+            <Link href="/about">About</Link>
           </li>
-          <li>
-            <Link
-              className="text-sm hover:text-indigo-700 font-medium"
-              href="/projects"
-            >
-              Projects
-            </Link>
+          <li className="text-sm hover:text-indigo-700 font-medium">
+            <Link href="/projects">Projects</Link>
           </li>
-          <li>
-            <Link
-              className="text-sm hover:text-indigo-700 font-medium"
-              href="/team"
-              h
-            >
+          <li className="text-sm hover:text-indigo-700 font-medium">
+            <Link href="/team" h>
               Team
             </Link>
           </li>
-          <li>
-            <Link
-              className="text-sm hover:text-indigo-700 font-medium"
-              href="/publications"
-            >
-              Publications
-            </Link>
+          <li className="text-sm hover:text-indigo-700 font-medium">
+            <Link href="/publications">Publications</Link>
           </li>
         </ul>
         <button className="inline-block ml-auto text-indigo-500 hover:text-indigo-700">

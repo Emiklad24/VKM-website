@@ -41,6 +41,48 @@ const Footer = () => {
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-bold text-indigo-700 tracking-widest text-sm mb-3">
+              LINKS
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Home</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">About</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Services</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Publications
+                </a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-bold text-indigo-700 tracking-widest text-sm mb-3">
+              LINKS
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Home</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">About</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Services</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Publications
+                </a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-bold text-indigo-700 tracking-widest text-sm mb-3">
               CONTACT US
             </h2>
             <p>
