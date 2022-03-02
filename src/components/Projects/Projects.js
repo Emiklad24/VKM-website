@@ -3,6 +3,11 @@
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 import Link from "next/link";
+import Health from "../../assets/images/projects/health-info.webp";
+import Image from "next/image";
+import TeacherAbs from "../../assets/images/projects/teacher-absent.webp";
+import HealthInfo from "../../assets/images/projects/civil-reg.webp";
+import PolicyPlan from "../../assets/images/projects/landscape-nigeria.webp";
 
 const Projects = () => {
   return (
@@ -38,10 +43,13 @@ const Projects = () => {
       <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
         <a aria-label="View Item">
           <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
+            <Image
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="/health-info.webp"
+              src={Health}
               alt="health worker on a computer"
+              height={500}
+              width={400}
+              layout="responsive"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-700 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-4 text-lg font-bold text-gray-100">
@@ -58,10 +66,13 @@ const Projects = () => {
         </a>
         <a aria-label="View Item">
           <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
+            <Image
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="/teacher-absent.webp"
+              src={TeacherAbs}
               alt="teacher writing on chalkboard"
+              height={500}
+              width={400}
+              layout="responsive"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-700 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-4 text-lg font-bold text-gray-100">
@@ -78,10 +89,13 @@ const Projects = () => {
         </a>
         <a aria-label="View Item">
           <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
+            <Image
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="/civil-reg.webp"
+              src={HealthInfo}
               alt="Screen displaying statistics"
+              height={500}
+              width={400}
+              layout="responsive"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-700 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-4 text-lg font-bold text-gray-100">
@@ -98,10 +112,13 @@ const Projects = () => {
         </a>
         <a aria-label="View Item">
           <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
+            <Image
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="/landscape-nigeria.webp"
+              src={PolicyPlan}
               alt="street view nigeria"
+              height={500}
+              width={400}
+              layout="responsive"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-700 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-4 text-lg font-bold text-gray-100">
