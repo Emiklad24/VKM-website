@@ -10,7 +10,7 @@ const Footer = () => {
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <img src="/vkm_logo.png" alt="company-logo" className="h-8" />
 
-            <span className="ml-3 text-xl text-indigo-700">Our Vision</span>
+            <span className="ml-3 text-xl text-mantis-700">Our Vision</span>
           </a>
           <p className="mt-2 text-sm text-gray-500">
             To provide cutting-edge research and consulting services to clients
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-bold text-indigo-700 tracking-widest text-sm mb-3">
+            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
               LINKS
             </h2>
             <nav className="list-none mb-10">
@@ -40,7 +40,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-bold text-indigo-700 tracking-widest text-sm mb-3">
+            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
               LINKS
             </h2>
             <nav className="list-none mb-10">
@@ -61,7 +61,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-bold text-indigo-700 tracking-widest text-sm mb-3">
+            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
               LINKS
             </h2>
             <nav className="list-none mb-10">
@@ -82,7 +82,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-bold text-indigo-700 tracking-widest text-sm mb-3">
+            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
               CONTACT US
             </h2>
             <p>
@@ -104,7 +104,7 @@ const Footer = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                className="w-5 h-5 text-indigo-700"
+                className="w-5 h-5 text-mantis-700"
                 viewBox="0 0 24 24"
               >
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -116,7 +116,7 @@ const Footer = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                className="w-5 h-5 text-indigo-700"
+                className="w-5 h-5 text-mantis-700"
                 viewBox="0 0 24 24"
               >
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
@@ -129,7 +129,7 @@ const Footer = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                className="w-5 h-5 text-indigo-700"
+                className="w-5 h-5 text-mantis-700"
                 viewBox="0 0 24 24"
               >
                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
@@ -143,7 +143,7 @@ const Footer = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="0"
-                className="w-5 h-5 text-indigo-700"
+                className="w-5 h-5 text-mantis-700"
                 viewBox="0 0 24 24"
               >
                 <path

@@ -46,10 +46,10 @@ const Services = () => {
       <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <div className="flex flex-col justify-between p-5 border rounded shadow-md">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <BiBriefcase className="text-indigo-700" size={30} />
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <BiBriefcase className="text-mantis-700" size={30} />
             </div>
-            <h6 className="mb-2 font-semibold leading-5 text-indigo-700">
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
               Project implementation
             </h6>
             <p className="mb-3 text-sm text-gray-900 leading-8">
@@ -61,7 +61,7 @@ const Services = () => {
           </div>
           <a
             aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-indigo-700"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
           >
             Learn more
           </a>
@@ -69,10 +69,10 @@ const Services = () => {
 
         <div className="flex flex-col justify-between p-5 border rounded shadow-md">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <BiSearchAlt className="text-indigo-700" size={30} />
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <BiSearchAlt className="text-mantis-700" size={30} />
             </div>
-            <h6 className="mb-2 font-semibold leading-5 text-indigo-700">
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
               Research
             </h6>
             <p className="mb-3 text-sm text-gray-900 leading-8">
@@ -83,17 +83,17 @@ const Services = () => {
           </div>
           <a
             aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-indigo-700 hover:text-indigo-900"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700 hover:text-mantis-900"
           >
             Learn more
           </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-md">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <FaRegHospital className="text-indigo-700" size={30} />
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <FaRegHospital className="text-mantis-700" size={30} />
             </div>
-            <h6 className="mb-2 font-semibold leading-5 text-indigo-700">
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
               Health Systems Strengthening
             </h6>
             <p className="mb-3 text-sm text-gray-900 leading-8">
@@ -103,17 +103,17 @@ const Services = () => {
           </div>
           <a
             aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-indigo-700"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
           >
             Learn more
           </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-md">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <FaChild className="text-indigo-700" size={30} />
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <FaChild className="text-mantis-700" size={30} />
             </div>
-            <h6 className="mb-2 font-semibold leading-5 text-indigo-700">
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
               Child Abuse and Human Trafficking
             </h6>
             <p className="mb-3 text-sm text-gray-900  leading-8">
@@ -123,7 +123,7 @@ const Services = () => {
           </div>
           <a
             aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-indigo-700 "
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700 "
           >
             Learn more
           </a>
@@ -133,10 +133,10 @@ const Services = () => {
       <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-3 my-10">
         <div className="flex flex-col justify-between p-5 border rounded shadow-md ">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <SiPowerbi className="text-indigo-700" size={30} />
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <SiPowerbi className="text-mantis-700" size={30} />
             </div>
-            <h6 className="mb-2 font-semibold leading-5 text-indigo-700">
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
               Health Informatics Project Management.
             </h6>
             <p className="mb-3 text-sm text-gray-900  leading-8">
@@ -147,17 +147,17 @@ const Services = () => {
           </div>
           <a
             aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-indigo-700"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
           >
             Learn more
           </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-md">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <AiOutlineControl className="text-indigo-700" size={30} />
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <AiOutlineControl className="text-mantis-700" size={30} />
             </div>
-            <h6 className="mb-2 font-semibold leading-5 text-indigo-700">
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
               Monitoring and Evaluation Experts.
             </h6>
             <p className="mb-3 text-sm text-gray-900  leading-8">
@@ -168,17 +168,17 @@ const Services = () => {
           </div>
           <a
             aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-indigo-700"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
           >
             Learn more
           </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-md">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <MdReduceCapacity className="text-indigo-700" size={30} />
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <MdReduceCapacity className="text-mantis-700" size={30} />
             </div>
-            <h6 className="mb-2 font-semibold leading-5 text-indigo-700">
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
               Capacity Building.
             </h6>
             <p className="mb-3 text-sm text-gray-900  leading-8">
@@ -189,7 +189,7 @@ const Services = () => {
           </div>
           <a
             aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-indigo-700"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
           >
             Learn more
           </a>

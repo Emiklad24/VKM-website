@@ -31,7 +31,7 @@ const Projects = () => {
               project.
             </RoughNotation>
           </span>
-          <div className="h-1 ml-auto duration-300 origin-left transform bg-indigo-700 scale-x-30 group-hover:scale-x-100" />
+          <div className="h-1 ml-auto duration-300 origin-left transform bg-mantis-700 scale-x-30 group-hover:scale-x-100" />
         </h2>
         <p className="text-gray-700 lg:text-sm lg:max-w-md ">
           As our clients&apos; close ally, we understand the pressure to
@@ -135,11 +135,11 @@ const Projects = () => {
           </div>
         </a>
       </div>
-      <div className="text-center text-indigo-700 hover:text-indigo-900 cursor-pointer">
+      <div className="text-center text-mantis-700 hover:text-mantis-900 cursor-pointer">
         <Link
           href="/projects"
           aria-label=""
-          className="inline-flex items-center font-semibold transition-colors duration-200 text-indigo-700 hover:text-indigo-900"
+          className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700 hover:text-mantis-900"
         >
           <div>
             View projects

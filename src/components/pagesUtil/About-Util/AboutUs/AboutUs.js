@@ -22,7 +22,7 @@ export default function AboutUs() {
               about us
             </RoughNotation>
           </h5>
-          <div className="h-1 ml-auto duration-300 origin-left transform bg-indigo-700 scale-x-30 hover:scale-x-50 mb-6" />
+          <div className="h-1 ml-auto duration-300 origin-left transform bg-mantis-700 scale-x-30 hover:scale-x-50 mb-6" />
           <p className="mb-6 text-gray-900 leading-8">
             Viable Knowledge Masters (VKM) is a health and development
             consulting company licensed in Nigeria. The company was established
@@ -34,7 +34,7 @@ export default function AboutUs() {
           <div className="flex items-center">
             <button
               type="submit"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-700 hover:bg-indigo-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-mantis-700 hover:bg-mantis-700 focus:shadow-outline focus:outline-none"
             >
               Get started
             </button>
@@ -42,9 +42,9 @@ export default function AboutUs() {
         </div>
         <div className="grid gap-5 row-gap-5 sm:grid-cols-2">
           <div className="max-w-md">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
               <svg
-                className="w-12 h-12 text-indigo-700"
+                className="w-12 h-12 text-mantis-700"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -57,7 +57,7 @@ export default function AboutUs() {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-bold leading-5 text-indigo-700">
+            <h6 className="mb-2 font-bold leading-5 text-mantis-700">
               Mission
             </h6>
             <p className="text-md text-gray-700 leading-8">
@@ -67,9 +67,9 @@ export default function AboutUs() {
             </p>
           </div>
           <div className="max-w-md">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
               <svg
-                className="w-12 h-12 text-indigo-700"
+                className="w-12 h-12 text-mantis-700"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -82,7 +82,7 @@ export default function AboutUs() {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-bold leading-5 text-indigo-700">Vision</h6>
+            <h6 className="mb-2 font-bold leading-5 text-mantis-700">Vision</h6>
             <p className="text-md text-gray-700 leading-8">
               Rough pomfret lemon shark plownose chimaera southern sandfish
               kokanee northern sea robin Antarctic cod. Yellow-and-black
@@ -90,9 +90,9 @@ export default function AboutUs() {
             </p>
           </div>
           <div className="max-w-md">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
               <svg
-                className="w-12 h-12 text-indigo-700"
+                className="w-12 h-12 text-mantis-700"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -105,7 +105,7 @@ export default function AboutUs() {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-bold leading-5 text-indigo-700">Values</h6>
+            <h6 className="mb-2 font-bold leading-5 text-mantis-700">Values</h6>
             <p className="text-md text-gray-700 leading-8">
               A slice of heaven. O for awesome, this chocka full cuzzie is as
               rip-off as a cracker. Meanwhile, in behind the bicycle shed,
@@ -113,9 +113,9 @@ export default function AboutUs() {
             </p>
           </div>
           <div className="max-w-md">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
               <svg
-                className="w-12 h-12 text-indigo-700"
+                className="w-12 h-12 text-mantis-700"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -128,7 +128,7 @@ export default function AboutUs() {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-bold leading-5 text-indigo-700">
+            <h6 className="mb-2 font-bold leading-5 text-mantis-700">
               Strategy
             </h6>
             <p className="text-md text-gray-700 leading-8">

@@ -6,7 +6,7 @@ import Navbar from "../Navbar/Navbar";
 const Hero = ({ headerPix, title, titleHighlighted, subtitle }) => {
   return (
     <section className="min-h-screen relative pb-8 overflow-y-hidden font-sans">
-      <div className=" bg-opacity-50 bg-indigo-500 hidden lg:block absolute top-0 left-0 bottom-0 w-2/5 object-cover z-40"></div>
+      <div className=" bg-opacity-50 bg-mantis-500 hidden lg:block absolute top-0 left-0 bottom-0 w-2/5 object-cover z-40"></div>
       <img
         className="hidden lg:block absolute top-0 left-0 bottom-0 w-2/5 object-cover"
         src={headerPix}
@@ -37,11 +37,11 @@ const Hero = ({ headerPix, title, titleHighlighted, subtitle }) => {
               {subtitle}
             </p>
             <div>
-              <a className="inline-flex items-center justify-center w-full h-12 p-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-700 hover:bg-indigo-900 focus:shadow-outline focus:outline-none">
+              <a className="inline-flex items-center justify-center w-full h-12 p-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-mantis-700 hover:bg-mantis-900 focus:shadow-outline focus:outline-none">
                 Get started
               </a>
               <a
-                className="block md:inline-block px-5 py-3 text-sm text-center font-semibold text-indigo-700 hover:text-white hover:bg-indigo-900 border border-indigo-700 hover:border-indigo-900 rounded transition duration-200"
+                className="block md:inline-block px-5 py-3 text-sm text-center font-semibold text-mantis-700 hover:text-white hover:bg-mantis-900 border border-mantis-700 hover:border-mantis-900 rounded transition duration-200"
                 href="#"
               >
                 Learn more
@@ -74,14 +74,14 @@ const Hero = ({ headerPix, title, titleHighlighted, subtitle }) => {
             <a className="mr-auto text-2xl font-semibold leading-none" href="#">
               <img
                 className="h-8"
-                src="plain-assets/logos/plain-indigo.svg"
+                src="plain-assets/logos/plain-mantis.svg"
                 alt=""
                 width="auto"
               />
             </a>
             <button className="navbar-close">
               <svg
-                className="h-6 w-6 cursor-pointer hover:text-indigo-500"
+                className="h-6 w-6 cursor-pointer hover:text-mantis-500"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -100,7 +100,7 @@ const Hero = ({ headerPix, title, titleHighlighted, subtitle }) => {
             <ul>
               <li className="mb-1">
                 <a
-                  className="block p-4 text-sm font-semibold hover:bg-indigo-50 hover:text-indigo-500 rounded"
+                  className="block p-4 text-sm font-semibold hover:bg-mantis-50 hover:text-mantis-500 rounded"
                   href="#"
                 >
                   About
@@ -108,7 +108,7 @@ const Hero = ({ headerPix, title, titleHighlighted, subtitle }) => {
               </li>
               <li className="mb-1">
                 <a
-                  className="block p-4 text-sm font-semibold hover:bg-indigo-50 hover:text-indigo-500 rounded"
+                  className="block p-4 text-sm font-semibold hover:bg-mantis-50 hover:text-mantis-500 rounded"
                   href="#"
                 >
                   Company
@@ -116,7 +116,7 @@ const Hero = ({ headerPix, title, titleHighlighted, subtitle }) => {
               </li>
               <li className="mb-1">
                 <a
-                  className="block p-4 text-sm font-semibold hover:bg-indigo-50 hover:text-indigo-500 rounded"
+                  className="block p-4 text-sm font-semibold hover:bg-mantis-50 hover:text-mantis-500 rounded"
                   href="#"
                 >
                   Services
@@ -124,7 +124,7 @@ const Hero = ({ headerPix, title, titleHighlighted, subtitle }) => {
               </li>
               <li className="mb-1">
                 <a
-                  className="block p-4 text-sm font-semibold hover:bg-indigo-50 hover:text-indigo-500 rounded"
+                  className="block p-4 text-sm font-semibold hover:bg-mantis-50 hover:text-mantis-500 rounded"
                   href="#"
                 >
                   Testimonials

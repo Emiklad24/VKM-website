@@ -26,12 +26,18 @@ module.exports = {
       },
 
       colors: {
-        brand: {
-          "primary-100": "#eef2ff",
-          "primary-200": "#818cf8",
-          "primary-400": "#651fff",
-          "primary-700": "#6200ea",
-          "primary-900": "#1c0352",
+        mantis: {
+          DEFAULT: "#8CC761",
+          50: "#EFF7E9",
+          100: "#E4F2D9",
+          200: "#CEE7BB",
+          300: "#B8DC9D",
+          400: "#A2D27F",
+          500: "#8CC761",
+          600: "#6FB13F",
+          700: "#558830",
+          800: "#3B5E21",
+          900: "#213513",
         },
       },
       spacing: {

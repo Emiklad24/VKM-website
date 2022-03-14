@@ -25,7 +25,7 @@ const Navbar = () => {
         <img className="h-8" src="/vkm_logo.png" alt="" width="auto" />
       </Link> */}
       <div className="lg:hidden ml-auto">
-        <button className="block navbar-burger text-indigo-500 hover:text-indigo-500 focus:outline-none">
+        <button className="block navbar-burger text-mantis-500 hover:text-mantis-500 focus:outline-none">
           <svg
             className="h-4 w-4"
             fill="currentColor "
@@ -45,25 +45,25 @@ const Navbar = () => {
       </div>
       <div className="hidden lg:flex w-auto lg:w-3/5 lg:pl-16 ml-auto">
         <ul className="flex items-center space-x-12">
-          <li className="text-sm hover:text-indigo-700 font-medium">
+          <li className="text-sm hover:text-mantis-700 font-medium">
             <Link href="/">Home</Link>
           </li>
-          <li className="text-sm hover:text-indigo-700 font-medium">
+          <li className="text-sm hover:text-mantis-700 font-medium">
             <Link href="/about">About</Link>
           </li>
-          <li className="text-sm hover:text-indigo-700 font-medium">
+          <li className="text-sm hover:text-mantis-700 font-medium">
             <Link href="/projects">Projects</Link>
           </li>
-          <li className="text-sm hover:text-indigo-700 font-medium">
+          <li className="text-sm hover:text-mantis-700 font-medium">
             <Link href="/team" h>
               Team
             </Link>
           </li>
-          <li className="text-sm hover:text-indigo-700 font-medium">
+          <li className="text-sm hover:text-mantis-700 font-medium">
             <Link href="/publications">Publications</Link>
           </li>
         </ul>
-        <button className="inline-block ml-auto text-indigo-500 hover:text-indigo-700">
+        <button className="inline-block ml-auto text-mantis-500 hover:text-mantis-700">
           <img
             className="h-10"
             src="/vkm_logo.png"
