@@ -4,15 +4,9 @@ import Hero from "../Hero/Hero";
 import Contact from "../Contact/Contact";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import Navbar from "../Navbar/Navbar";
 
-const Container = ({
-  headerPix,
-  title,
-  titleHighlighted,
-  subtitle,
-  children,
-  customMeta,
-}) => {
+const Container = ({ children, customMeta }) => {
   const router = useRouter();
 
   const meta = {
@@ -98,14 +92,16 @@ const Container = ({
         <meta property="og:url" content="https://viableknowledgemasters.com" />
         <meta property="og:image" content="/vkm_logo.png" />
       </Head>
-      <Hero
+      {/* <Hero
         headerPix={headerPix}
         title={title}
         titleHighlighted={titleHighlighted}
         subtitle={subtitle}
-      />
+      /> */}
+      <Navbar />
+
       <main>{children}</main>
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   );
