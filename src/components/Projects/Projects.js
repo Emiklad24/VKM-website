@@ -33,7 +33,7 @@ const Projects = () => {
           </span>
           <div className="h-1 ml-auto duration-300 origin-left transform bg-mantis-700 scale-x-30 group-hover:scale-x-100" />
         </h2>
-        <p className="text-gray-700 lg:text-sm lg:max-w-md ">
+        <p className="text-gray-700 lg:text-md lg:max-w-md ">
           As our clients&apos; close ally, we understand the pressure to
           deliver; stretching thinking quickly. Our resource-efficient approach
           cuts out any unnecessary process as we manage to tackle strategic work

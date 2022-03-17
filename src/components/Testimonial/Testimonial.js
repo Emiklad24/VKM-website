@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
+import { motion } from "framer-motion";
 
 const Testimonial = () => {
   return (
@@ -31,7 +32,11 @@ const Testimonial = () => {
           </p>
         </div>
         <div className="flex flex-wrap -mx-3 mb-6">
-          <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6 testimonial-item">
+          <motion.div
+            className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6 testimonial-item"
+            whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+            whileTap={{ scale: 0.95 }}
+          >
             <div className="p-8 bg-white shadow rounded">
               <div className="flex items-center mb-4">
                 <img
@@ -41,7 +46,7 @@ const Testimonial = () => {
                 />
                 <div className="pl-4">
                   <p className="text-xl">John Bailey</p>
-                  <p className="text-blue-600">CEO</p>
+                  <p className="text-mantis-500">CEO</p>
                 </div>
               </div>
               <p className="text-blueGray-400 leading-loose">
@@ -50,8 +55,12 @@ const Testimonial = () => {
                 libero, ut vestibulum sapien odio facilisis nunc.
               </p>
             </div>
-          </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6 testimonial-item">
+          </motion.div>
+          <motion.div
+            className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6 testimonial-item"
+            whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+            whileTap={{ scale: 0.95 }}
+          >
             <div className="p-8 bg-white shadow rounded">
               <div className="flex items-center mb-4">
                 <img
@@ -61,7 +70,7 @@ const Testimonial = () => {
                 />
                 <div className="pl-4">
                   <p className="text-xl">Julie Brown</p>
-                  <p className="text-blue-600">Head of Development</p>
+                  <p className="text-mantis-500">Head of Development</p>
                 </div>
               </div>
               <p className="text-blueGray-400 leading-loose">
@@ -70,8 +79,12 @@ const Testimonial = () => {
                 libero, ut vestibulum sapien odio facilisis nunc.
               </p>
             </div>
-          </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6 testimonial-item">
+          </motion.div>
+          <motion.div
+            className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6 testimonial-item"
+            whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+            whileTap={{ scale: 0.95 }}
+          >
             <div className="p-8 bg-white shadow rounded">
               <div className="flex items-center mb-4">
                 <img
@@ -81,7 +94,7 @@ const Testimonial = () => {
                 />
                 <div className="pl-4">
                   <p className="text-xl">Julie Jones</p>
-                  <p className="text-blue-600">Head of Operations</p>
+                  <p className="text-mantis-500">Head of Operations</p>
                 </div>
               </div>
               <p className="text-blueGray-400 leading-loose">
@@ -90,7 +103,7 @@ const Testimonial = () => {
                 libero, ut vestibulum sapien odio facilisis nunc.
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

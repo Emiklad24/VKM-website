@@ -31,14 +31,14 @@ export default function AboutUs() {
             Nigeria. The company boasts of experts who have worked across
             international development organizations for over 10 years.
           </p>
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <button
               type="submit"
               className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-mantis-700 hover:bg-mantis-700 focus:shadow-outline focus:outline-none"
             >
               Get started
             </button>
-          </div>
+          </div> */}
         </div>
         <div className="grid gap-5 row-gap-5 sm:grid-cols-2">
           <div className="max-w-md">

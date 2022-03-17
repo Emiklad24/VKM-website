@@ -1,4 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -7,76 +12,71 @@ const Nav = () => {
       <div className="relative flex items-center justify-between">
         <a
           href="/"
-          aria-label="Company"
-          title="Company"
+          aria-label="Viable Knowledge Masters"
+          title="Viable Knowledge Masters"
           className="inline-flex items-center"
         >
-          <svg
-            className="w-8 text-deep-purple-accent-400"
-            viewBox="0 0 24 24"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeMiterlimit="10"
-            stroke="currentColor"
-            fill="none"
-          >
-            <rect x="3" y="1" width="7" height="12" />
-            <rect x="3" y="17" width="7" height="6" />
-            <rect x="14" y="1" width="7" height="6" />
-            <rect x="14" y="11" width="7" height="12" />
-          </svg>
-          <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+          <img src="/vkm_logo.png" alt="" width={25} height={25} />
+          <span className="ml-2 text-lg font-bold tracking-wide uppercase text-mantis-700 hover:text-mantis-900 hidden lg:flex">
             Viable Knowledge Masters
+          </span>
+          <span className="ml-2 text-lg font-bold tracking-wide uppercase text-mantis-700 hover:text-mantis-900 lg:hidden sm:flex">
+            VKM
           </span>
         </a>
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <li>
-            <a
-              href="/about"
-              aria-label="Our product"
-              title="Our product"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              About
-            </a>
+            <Link href="/about" aria-label="About" title="About" passHref>
+              <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                About
+              </span>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/team"
-              aria-label="Our product"
-              title="Our product"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              aria-label="Team"
+              title="Team"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
+              passHref
             >
-              Team
-            </a>
+              <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                Team
+              </span>
+            </Link>
           </li>
           <li>
-            <a
-              href="/careers"
-              aria-label="Product pricing"
-              title="Product pricing"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            <Link
+              href="/projects"
+              aria-label="Projects"
+              title="Projects"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
+              passHref
             >
-              Careers
-            </a>
+              <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                Projects
+              </span>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/research"
-              aria-label="About us"
-              title="About us"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              aria-label="Research"
+              title="Research"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
+              passHref
             >
-              Research
-            </a>
+              <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                Research
+              </span>
+            </Link>
           </li>
         </ul>
         <div className="lg:hidden">
           <button
             aria-label="Open Menu"
             title="Open Menu"
-            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-mantis-100 focus:bg-mantis-100"
             onClick={() => setIsMenuOpen(true)}
           >
             <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -101,12 +101,12 @@ const Nav = () => {
                   <div>
                     <a
                       href="/"
-                      aria-label="Company"
-                      title="Company"
+                      aria-label="Viable Knowledge Masters"
+                      title="Viable Knowledge Masters"
                       className="inline-flex items-center"
                     >
                       <svg
-                        className="w-8 text-deep-purple-accent-400"
+                        className="w-8 text-mantis-700"
                         viewBox="0 0 24 24"
                         strokeLinejoin="round"
                         strokeWidth="2"
@@ -120,8 +120,8 @@ const Nav = () => {
                         <rect x="14" y="1" width="7" height="6" />
                         <rect x="14" y="11" width="7" height="12" />
                       </svg>
-                      <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Viable Knowledge Masters
+                      <span className="ml-2 text-xl font-bold tracking-wide uppercase text-mantis-700">
+                        VKM
                       </span>
                     </a>
                   </div>
@@ -144,44 +144,56 @@ const Nav = () => {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <a
+                      <Link
                         href="/about"
-                        aria-label="Our product"
-                        title="Our product"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        aria-label="About"
+                        title="About"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
+                        passHref
                       >
-                        About
-                      </a>
+                        <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                          About
+                        </span>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/team"
-                        aria-label="Our product"
-                        title="Our product"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        aria-label="Team"
+                        title="Team"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
+                        passHref
                       >
-                        Team
-                      </a>
+                        <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                          Team
+                        </span>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/careers"
-                        aria-label="Product pricing"
-                        title="Product pricing"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      <Link
+                        href="/projects"
+                        aria-label="Projects"
+                        title="Projects"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
+                        passHref
                       >
-                        Careers
-                      </a>
+                        <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                          Projects
+                        </span>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/research"
-                        aria-label="About us"
-                        title="About us"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        aria-label="Research"
+                        title="Research"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
+                        passHref
                       >
-                        Research
-                      </a>
+                        <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                          Research
+                        </span>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

@@ -1,10 +1,10 @@
 import React from "react";
 import Footer from "../Footer/Footer";
-import Hero from "../Hero/Hero";
 import Contact from "../Contact/Contact";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "../Navbar/Navbar";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Container = ({ children, customMeta }) => {
   const router = useRouter();
@@ -92,17 +92,35 @@ const Container = ({ children, customMeta }) => {
         <meta property="og:url" content="https://viableknowledgemasters.com" />
         <meta property="og:image" content="/vkm_logo.png" />
       </Head>
-      {/* <Hero
-        headerPix={headerPix}
-        title={title}
-        titleHighlighted={titleHighlighted}
-        subtitle={subtitle}
-      /> */}
       <Navbar />
-
-      <main>{children}</main>
-      {/* <Contact /> */}
-      <Footer />
+      <AnimatePresence exitBeforeEnter>
+        <motion.div
+          key={router.route}
+          initial="pageInitial"
+          animate="pageAnimate"
+          variants={{
+            pageInitial: {
+              opacity: 0,
+              duration: 1,
+            },
+            pageAnimate: {
+              opacity: 1,
+              transition: {
+                duration: 1,
+              },
+            },
+            pageExit: {
+              opacity: 0,
+              duration: 2,
+            },
+          }}
+          exit="pageExit"
+        >
+          <main>{children}</main>
+          <Contact />
+          <Footer />
+        </motion.div>
+      </AnimatePresence>
     </>
   );
 };
