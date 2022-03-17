@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import TeamMembers from "../../components/pagesUtil/Team-Util/TeamMembers";
-import Container from "../../components/Container/Container";
-import Hero from "../../components/Hero/Hero";
+import TeamMembers from "@components/pagesUtil/Team-Util/TeamMembers";
+import Container from "@components/Container/Container";
+import Hero from "@components/Hero/Hero";
 
 const team = () => {
   return (

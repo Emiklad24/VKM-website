@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -60,14 +59,14 @@ const Nav = () => {
           </li>
           <li>
             <Link
-              href="/research"
-              aria-label="Research"
-              title="Research"
+              href="/career"
+              aria-label="career"
+              title="career"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
               passHref
             >
               <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                Research
+                Career
               </span>
             </Link>
           </li>
@@ -184,14 +183,14 @@ const Nav = () => {
                     </li>
                     <li>
                       <Link
-                        href="/research"
-                        aria-label="Research"
-                        title="Research"
+                        href="/career"
+                        aria-label="career"
+                        title="career"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
                         passHref
                       >
                         <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                          Research
+                          Career
                         </span>
                       </Link>
                     </li>

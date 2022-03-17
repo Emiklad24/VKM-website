@@ -1,7 +1,7 @@
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 import Image from "next/image";
-import teamMembers from "../../../assets/constants/TeamMembers-List";
+import teamMembers from "@assets/constants/TeamMembers-List";
 import Link from "next/link";
 
 const TeamMembers = () => {

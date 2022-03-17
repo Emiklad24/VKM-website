@@ -3,11 +3,11 @@
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 import Link from "next/link";
-import Health from "../../assets/images/projects/health-info.webp";
 import Image from "next/image";
-import TeacherAbs from "../../assets/images/projects/teacher-absent.webp";
-import HealthInfo from "../../assets/images/projects/civil-reg.webp";
-import PolicyPlan from "../../assets/images/projects/landscape-nigeria.webp";
+import Health from "@assets/images/projects/health-info.webp";
+import TeacherAbs from "@assets/images/projects/teacher-absent.webp";
+import HealthInfo from "@assets/images/projects/civil-reg.webp";
+import PolicyPlan from "@assets/images/projects/landscape-nigeria.webp";
 
 const Projects = () => {
   return (

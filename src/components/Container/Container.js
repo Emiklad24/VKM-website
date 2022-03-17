@@ -1,9 +1,9 @@
 import React from "react";
 import Footer from "../Footer/Footer";
-import Contact from "../Contact/Contact";
+import Contact from "@components/Contact/Contact";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "@components/Navbar/Navbar";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Container = ({ children, customMeta }) => {

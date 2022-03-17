@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import teamMembers from "../../assets/constants/TeamMembers-List";
-import Container from "../../components/Container/Container";
+import teamMembers from "@assets/constants/TeamMembers-List";
+import Container from "@components/Container/Container";
 import { useRouter } from "next/router";
+
 function TeamMember({ team }) {
   const router = useRouter();
   const { teamMember } = router.query;
