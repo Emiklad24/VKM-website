@@ -2,7 +2,7 @@
 // /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
-import Image from "next/Image";
+
 // const Hero = ({ headerPix, title, titleHighlighted, subtitle }) => {
 //   return (
 //     <section className="min-h-screen relative pb-8 overflow-y-hidden font-sans">
