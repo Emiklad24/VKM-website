@@ -80,7 +80,7 @@ const Container = ({ children, customMeta }) => {
         />
         <meta
           name="twitter:title"
-          content="Viable Knowledge Masters - I'm a software developer that loves building products and web applications that impact real people"
+          content="Viable Knowledge Masters - Modern, seamless solutions at record time"
         />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content="/vkm_logo.png" />
