@@ -1,11 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 import Container from "@components/Container/Container";
 import Hero from "@components/Hero/Hero";
-
 import Link from "next/link";
+
 const Careers = () => {
   return (
-    <Container>
+    <Container
+      title="Careers - We want you here"
+      description="Won't you like to join a team of passionate experts who know how to have fun ?"
+    >
       <Hero
         headerPix="/projects.webp"
         title={"We want  "}

@@ -12,7 +12,10 @@ import Image from "next/image";
 
 const projects = () => {
   return (
-    <Container>
+    <Container
+      title="Projects - Projects are perfectly done"
+      description="Our team provides a consultative approach to problem solving. We are a team of experienced professionals who care about your success"
+    >
       <Hero
         headerPix="/projects.webp"
         title={"Projects are perfectly  "}

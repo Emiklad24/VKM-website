@@ -6,7 +6,10 @@ import Hero from "@components/Hero/Hero";
 
 const team = () => {
   return (
-    <Container>
+    <Container
+      title="Team - Welcome our talented team of  professionals"
+      description="Our team provides a consultative approach to problem solving. We are a team of experienced professionals who care about your success"
+    >
       <Hero
         headerPix="/team.webp"
         title={"Welcome our talented team of  "}
