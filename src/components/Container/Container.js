@@ -6,8 +6,9 @@ import { useRouter } from "next/router";
 import Navbar from "@components/Navbar/Navbar";
 import { AnimatePresence, motion } from "framer-motion";
 
-const Container = ({ children, customMeta }) => {
+const Container = ({ children, ...customMeta }) => {
   const router = useRouter();
+  console.log(customMeta);
 
   const meta = {
     title:

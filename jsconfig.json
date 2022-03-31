@@ -5,7 +5,11 @@
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],
       "@styles/*": ["src/styles/*"],
-      "@assets/*": ["src/assets/*"]
+      "@assets/*": ["src/assets/*"],
+      "@util/*": ["src/util/*"]
     }
-  }
+  },
+
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.js", "**/*.js", "**/*.jsx"]
 }
