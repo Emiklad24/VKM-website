@@ -5,19 +5,9 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="text-gray-600 body-font font-sans">
-      <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <img src="/vkm_logo.png" alt="company-logo" className="h-8" />
-
-            <span className="ml-3 text-xl text-mantis-700">Our Vision</span>
-          </a>
-          <p className="mt-2 text-sm text-gray-500">
-            To provide cutting-edge research and consulting services to clients
-            that meet international best practices and standards.
-          </p>
-        </div>
-        <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+      <div className="container px-5 py-24 mx-auto  flex md:items-center lg:items-center md:flex-row md:flex-nowrap flex-wrap flex-col">
+       
+        <div className="flex-grow flex flex-wrap justify-around md:pr-20 -mb-10 md:text-left text-center order-first w-full">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
               LINKS
@@ -32,18 +22,7 @@ const Footer = () => {
               <li>
                 <a className="text-gray-600 hover:text-gray-800">Services</a>
               </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">
-                  Publications
-                </a>
-              </li>
-            </nav>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
-              LINKS
-            </h2>
-            <nav className="list-none mb-10">
+             
               <li>
                 <a className="text-gray-600 hover:text-gray-800">Sitemap</a>
               </li>
@@ -60,27 +39,7 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
-              LINKS
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Home</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">About</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Services</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">
-                  Publications
-                </a>
-              </li>
-            </nav>
-          </div>
+          
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
               CONTACT US
@@ -90,6 +49,19 @@ const Footer = () => {
               1st Avenue, Gwarinpa, FCT Abuja.
             </p>
           </div>
+
+
+          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <img src="/vkm_logo.png" alt="company-logo" className="h-8" />
+
+            <span className="ml-3 text-xl text-mantis-700">Our Vision</span>
+          </a>
+          <p className="mt-2 text-sm text-gray-500">
+            To provide cutting-edge research and consulting services to clients
+            that meet international best practices and standards.
+          </p>
+        </div>
         </div>
       </div>
       <div className="bg-gray-100">
