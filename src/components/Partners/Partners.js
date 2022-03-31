@@ -81,7 +81,7 @@ export const Partners = () => {
 
         <div className="flex flex-wrap justify-center -mx-4 mt-12">
           <motion.div
-            className="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0 shadow-md flex items-center ml-2"
+            className="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0 shadow-md flex items-center ml-2 "
             whileHover={{ scale: 1.03, position: "relative", zIndex: 2 }}
             whileTap={{ scale: 0.95 }}
           >
