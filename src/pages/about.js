@@ -5,7 +5,12 @@ import Hero from "../components/Hero/Hero";
 
 const About = () => {
   return (
-    <Container>
+    <Container
+      title="About - We’re here because of you"
+      description="Our goal is simply summarized as using our industry knowledge and
+      field experience to provide innovative, high quality and cost
+      effective solutions"
+    >
       <Hero
         headerPix="/about.webp"
         title={"We’re here because of "}
