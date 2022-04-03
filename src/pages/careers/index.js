@@ -2,6 +2,7 @@
 import Container from "@components/Container/Container";
 import Hero from "@components/Hero/Hero";
 import CareerCard from "@components/pagesUtil/Career-Util/CareerCard";
+import Pagination from "@components/Pagination/Pagination";
 import Link from "next/link";
 
 const Careers = () => {
@@ -56,9 +57,11 @@ const Careers = () => {
             and foster a culture that empowers you to do your best work
           </p>
         </div>
-        <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3  mx-auto">
          <CareerCard/>
+        
         </div>
+        <Pagination/>
         {/* <div className="text-center">
           <Link href="/" passHref>
             <a

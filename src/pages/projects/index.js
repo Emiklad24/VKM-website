@@ -5,6 +5,7 @@ import { RoughNotation } from "react-rough-notation";
 import Container from "@components/Container/Container";
 import Hero from "@components/Hero/Hero";
 import ProjectCard from "@components/pagesUtil/Project-Util/ProjectCard";
+import Pagination from "@components/Pagination/Pagination";
 
 
 const projects = () => {
@@ -47,6 +48,7 @@ const projects = () => {
         </div>
 
         <ProjectCard/>
+        <Pagination/>
        
       </div>
     </Container>

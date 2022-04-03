@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 
 import Container from "@components/Container/Container";
@@ -15,7 +16,7 @@ function SingleCareer({ career }) {
     console.log("he", careerDesc)
     return (
         <Container>
-            <section className="py-24 bg-white overflow-hidden font-sans mb-4 ">
+            <section className="py-24 bg-white overflow-hidden font-sans mb-4  ">
                 <div className="container px-4 mx-auto w-8/12 ">
                     <div className="flex flex-col flex-wrap -mx-4">
                         <h2 className="mb-4 text-4xl  leading-tight font-bold tracking-tighter text-mantis-700">
@@ -45,7 +46,7 @@ function SingleCareer({ career }) {
                         </div>
                     </div>
                 </div>
-                <div className="mx-auto w-9/12  text-center p-6 shadow">
+                <div className="mx-auto w-9/12  text-center p-6 shadow bg-gray-100">
                 <h2 className="mb-4 text-xl  leading-tight  tracking-tighter text-mantis-700">
                 If this sounds like a place you'd like to come to work, we humbly suggest we could do some great things together. Please get in touch with a CV or portfolio.
                         </h2>
