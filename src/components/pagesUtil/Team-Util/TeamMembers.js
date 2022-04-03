@@ -30,7 +30,7 @@ const TeamMembers = () => {
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque rem aperiam, eaque ipsa quae.
         </p>
-      </div>
+      </div> 
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         {teamMembers.map((teamMember, idx) => (
           <Link

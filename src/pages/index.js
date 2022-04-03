@@ -23,7 +23,7 @@ export default function Home() {
       <Services />
       <Projects />
       <Partners />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </Container>
   );
 }
