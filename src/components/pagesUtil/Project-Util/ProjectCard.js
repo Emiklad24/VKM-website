@@ -17,9 +17,11 @@ const ProjectCard = () => {
               height={700}
               layout="responsive"
             />
+            <Link href={`projects/${project.slug}`} passHref>
             <h5 className="mb-2 text-xl  font-bold leading-none sm:text-2xl text-mantis-500 hover:text-mantis-700 mt-4 cursor-pointer">
               {project?.name || ""}
             </h5>
+            </Link>
             <p className="text-gray-700">
              {project?.desc || ""}
             </p>

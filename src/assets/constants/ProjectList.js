@@ -2,7 +2,7 @@ import Health from "@assets/images/projects/health-info.webp";
 import TeacherAbs from "@assets/images/projects/teacher-absent.webp";
 import HealthInfo from "@assets/images/projects/civil-reg.webp";
 import PolicyPlan from "@assets/images/projects/landscape-nigeria.webp";
-
+import Reporta from  "../../../public/reporta.svg";
 const projectList = [
     {
         id: 1,
@@ -73,7 +73,7 @@ const projectList = [
         name:" Reporta Health Mobile App",
         slug:"Reporta Health Mobile App",
         desc: " In partnership with Viable Helpers Development Organization (VHDO), VKM has developed a mobile application (Reporta Health) for crowdsourcing data on illegal and unregistered health facilities across Nigeria. The app extends the functionality of the Health Facility Registry in the country.",
-        img:"/reporta.svg"
+        img: Reporta
     }
 ]
 

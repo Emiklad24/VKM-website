@@ -38,6 +38,7 @@ module.exports = {
           700: "#558830",
           800: "#3B5E21",
           900: "#213513",
+          950: "#d1ecf1"
         },
       },
       spacing: {
@@ -49,6 +50,7 @@ module.exports = {
       },
       height: {
         97: "97%",
+        half: "75vh"
       },
       maxHeight: {
         0: "0",

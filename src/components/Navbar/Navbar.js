@@ -181,6 +181,19 @@ const Nav = () => {
                         </span>
                       </Link>
                     </li>
+                    <li>
+                      <Link
+                        href="/publications"
+                        aria-label="publications"
+                        title="publications"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
+                        passHref
+                      >
+                        <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                          Publications
+                        </span>
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
               </div>
