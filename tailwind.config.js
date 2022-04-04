@@ -49,6 +49,7 @@ module.exports = {
       },
       height: {
         97: "97%",
+        half: "75vh"
       },
       maxHeight: {
         0: "0",

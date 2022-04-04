@@ -5,7 +5,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="text-gray-600 body-font font-sans">
-      <div className=" px-5 py-10 mx-auto flex items-center md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col w-screen">
+      <div className=" px-5 py-10 mx-auto flex items-center md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       
         <div className="flex-grow flex flex-wrap  -mb-10  text-center order-first justify-around">
           
