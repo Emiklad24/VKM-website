@@ -1,79 +1,67 @@
 /* eslint-disable @next/next/no-img-element */
-import projectList from "@assets/constants/ProjectList"
+import projectList from "@assets/constants/ProjectList";
 import Container from "@components/Container/Container";
 import { useRouter } from "next/router";
 import Image from "next/image";
 
-
 function SingleProject({ project }) {
   const router = useRouter();
   const { projectItem } = router.query;
-  const currentProjectInView = project.filter((teamProject) => teamProject.slug === projectItem);
+  const currentProjectInView = project.filter(
+    (teamProject) => teamProject.slug === projectItem
+  );
 
   return (
-    <Container>
-      <section className="py-24 bg-white overflow-hidden font-sans mb-4">
-        <div className="container px-4 mx-auto">
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0 h-half">
-              <div className="relative mx-auto h-full ">
-                <Image 
-                 className="  h-full mb-6 lg:h-80 xl:h-96 "
-                  src={currentProjectInView?.[0].img || ""}
-                  alt={currentProjectInView?.[0].name || ""}
-                  layout="fill"
+    <Container
+      title={`${currentProjectInView?.[0]?.name || ""} - ${
+        currentProjectInView?.[0]?.desc || ""
+      }`}
+      description={currentProjectInView?.[0]?.desc || ""}
+    >
+      <section className="py-20 font-sans">
+        <div className="container px-4 mx-auto mb-16">
+          <div className="max-w-xl lg:max-w-2xl mx-auto text-center">
+            <h2 className="mb-6 text-3xl leading-tight md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight font-bold font-heading text-mantis-700">
+              {currentProjectInView?.[0].name || ""}
+            </h2>
+            <div className="flex items-center justify-center">
+              <div className="mr-6">
+                <img
+                  className="w-16 h-16 object-cover rounded-full"
+                  src="/unicef.png"
+                  alt=""
                 />
               </div>
-            </div>
-            <div className="w-full md:w-1/2 px-4">
-              <h2 className="mb-4 text-4xl md:text-5xl leading-tight font-bold tracking-tighter text-mantis-700">{currentProjectInView?.[0].name || ""}</h2>
-
-              <div className="flex flex-wrap flex-col -mx-4 my-6 text-justify md:text-left">
-
-                <p className="text-lg leading-lg px-4">
-                  <span className="font-bold mr-2">Client:</span> Unicef
-                </p>
-                <p className="text-lg leading-lg px-4">
-                  <span className="font-bold mr-2">Start Date:</span>  December 2020
-                </p>
-                <p className="text-lg leading-lg px-4">
-                  <span className="font-bold mr-2">End Date:</span>  January 2021
-                </p>
-              </div>
-              <div className="flex flex-wrap -mx-4 text-justify md:text-left">
-                <p className="text-lg leading-lg px-4">
-                  {currentProjectInView?.[0]?.desc || ""}
-                </p>
+              <div>
+                <h3 className="text-2xl font-bold font-heading text-mantis-700">
+                  UNICEF
+                </h3>
+                <p className="text-lg text-mantis-700">February 26, 2021</p>
               </div>
             </div>
           </div>
-          <div className="my-20 flex flex-col justify-center items-center">
-          <h2 className="mb-4 text-3xl text-center  leading-tight font-bold tracking-tighter text-mantis-700">
-            Gallery
-          </h2>
-          <div className="grid gap-6 row-gap-5 lg:grid-cols-3 min-h-20 w-full ">
-          {projectList.map((project, idx) =>(
-            <div key={project?.name || idx} className=" h-full">
-            <Image
-            className="  h-full mb-6  "
-            src={project?.img || ""}
-            alt={project?.alt || ""}
-            width={100}
-              height={100}
-              layout="responsive"
-            />
-            
-           
-          </div>
-          ))}
-          </div>
+        </div>
+        <div className=" mb-12 lg:mb-16 ">
+          <Image
+            className="w-full h-full object-cover"
+            src={currentProjectInView?.[0].img || ""}
+            alt={currentProjectInView?.[0].name || ""}
+            layout="responsive"
+            height={50}
+            width={50}
+          />
+        </div>
+        <div className="container px-4 mx-auto">
+          <div className="max-w-2xl mx-auto">
+            <p className="mb-6 lg:mb-8 text-lg leading-loose lg:text-xl lg:leading-relaxed text-gray-500">
+              {currentProjectInView?.[0]?.desc || ""}
+            </p>
           </div>
         </div>
       </section>
     </Container>
-  )
-};
-
+  );
+}
 
 export async function getStaticProps() {
   return {

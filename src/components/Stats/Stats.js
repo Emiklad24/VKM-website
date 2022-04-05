@@ -21,7 +21,7 @@ const Stats = () => {
           </div>
           <h6 className="text-4xl font-extrabold text-mantis-700">
             <VisibilitySensor offset={{ bottom: 10 }} partialVisibility>
-              {({ isVisible }) => <CountUp end={isVisible ? 819 : 0} />}
+              {({ isVisible }) => <CountUp end={isVisible ? 30 : 0} />}
             </VisibilitySensor>
           </h6>
           <p className="mb-2 font-extrabold text-md text-mantis-700">
@@ -41,7 +41,7 @@ const Stats = () => {
           </div>
           <h6 className="text-4xl font-extrabold text-mantis-700">
             <VisibilitySensor offset={{ bottom: 10 }} partialVisibility>
-              {({ isVisible }) => <CountUp end={isVisible ? 300 : 0} />}
+              {({ isVisible }) => <CountUp end={isVisible ? 7 : 0} />}
             </VisibilitySensor>
           </h6>
           <p className="mb-2 font-extrabold text-md text-mantis-700">Clients</p>
@@ -80,7 +80,7 @@ const Stats = () => {
           </div>
           <h6 className="text-4xl font-extrabold text-mantis-700">
             <VisibilitySensor offset={{ bottom: 10 }} partialVisibility>
-              {({ isVisible }) => <CountUp end={isVisible ? 52 : 0} />}
+              {({ isVisible }) => <CountUp end={isVisible ? 5 : 0} />}
             </VisibilitySensor>
           </h6>
           <p className="mb-2 font-extrabold text-md text-mantis-700">

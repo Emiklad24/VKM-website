@@ -3,7 +3,13 @@
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 
-export const Hero = ({ headerPix, title, titleHighlighted, subtitle }) => {
+export const Hero = ({
+  headerPix,
+  title,
+  titleHighlighted,
+  subtitle,
+  ...rest
+}) => {
   return (
     <section className=" font-sans">
       <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">

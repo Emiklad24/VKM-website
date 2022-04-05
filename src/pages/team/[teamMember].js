@@ -11,7 +11,12 @@ function TeamMember({ team }) {
   );
 
   return (
-    <Container>
+    <Container
+      title={`${currentTeamMemeberInView?.[0]?.name || ""} - ${
+        currentTeamMemeberInView?.[0]?.aboutLong || ""
+      }`}
+      description={currentTeamMemeberInView?.[0]?.aboutLong || ""}
+    >
       <section className="py-24 bg-white overflow-hidden font-sans mb-4">
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap -mx-4">

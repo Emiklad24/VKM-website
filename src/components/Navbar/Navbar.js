@@ -59,14 +59,14 @@ const Nav = () => {
           </li>
           <li>
             <Link
-              href="/careers"
-              aria-label="careers"
-              title="careers"
+              href="/publications"
+              aria-label="publications"
+              title="publications"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
               passHref
             >
               <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                Careers
+                Publications
               </span>
             </Link>
           </li>
@@ -170,14 +170,14 @@ const Nav = () => {
                     </li>
                     <li>
                       <Link
-                        href="/careers"
-                        aria-label="careers"
-                        title="careers"
+                        href="/publications"
+                        aria-label="publications"
+                        title="publications"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
                         passHref
                       >
                         <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                          Careers
+                          Publications
                         </span>
                       </Link>
                     </li>

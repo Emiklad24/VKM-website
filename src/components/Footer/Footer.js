@@ -1,64 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer className="text-gray-600 body-font font-sans">
-      <div className=" px-5 py-10 mx-auto flex items-center md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-      
-        <div className="flex-grow flex flex-wrap  -mb-10  text-center order-first justify-around">
-          
-          <div className="lg:w-1/6 w-full px-4">
-            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
-              LINKS
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Home</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">About</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Services</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">
-                  Publications
-                </a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Sitemap</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Careers</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Info</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">
-                  Publications
-                </a>
-              </li>
-            </nav>
-          </div>
-         
-          
-          <div className="lg:w-1/6  w-full px-4">
-            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
-              CONTACT US
-            </h2>
-            <p>
-              Viable Knowledge Masters, Plot C114 Platinum Plaza, Second Floor
-              1st Avenue, Gwarinpa, FCT Abuja.
-            </p>
-          </div>
-
-
-          
-           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center  lg:mt-0 mt-10 px-4 ">
+      <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <img src="/vkm_logo.png" alt="company-logo" className="h-8" />
 
@@ -69,6 +17,86 @@ const Footer = () => {
             that meet international best practices and standards.
           </p>
         </div>
+        <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
+              LINKS
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <Link href={"/"} className="text-gray-600 hover:text-gray-800">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/about"}
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/projects"}
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/publications"}
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  Publications
+                </Link>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
+              LINKS
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <Link
+                  href={"api/my-sitemap"}
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  Sitemap
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/careers"}
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link href={"#"} className="text-gray-600 hover:text-gray-800">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href={"#"} className="text-gray-600 hover:text-gray-800">
+                  Info
+                </Link>
+              </li>
+            </nav>
+          </div>
+
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-bold text-mantis-700 tracking-widest text-sm mb-3">
+              CONTACT US
+            </h2>
+            <p>
+              Viable Knowledge Masters, Plot C114 Platinum Plaza, Second Floor
+              1st Avenue, Gwarinpa, FCT Abuja.
+            </p>
+          </div>
         </div>
       </div>
       <div className="bg-gray-100">
