@@ -48,7 +48,7 @@ const projects = () => {
         </div>
 
         <ProjectCard/>
-        <Pagination/>
+        {/* <Pagination/> */}
        
       </div>
     </Container>

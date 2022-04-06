@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const Container = ({ children, ...customMeta }) => {
   const router = useRouter();
-  console.log(customMeta);
+  
 
   const meta = {
     title:

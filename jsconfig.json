@@ -6,7 +6,10 @@
       "@pages/*": ["src/pages/*"],
       "@styles/*": ["src/styles/*"],
       "@assets/*": ["src/assets/*"],
-      "@util/*": ["src/util/*"]
+      "@util/*": ["src/util/*"],
+      "@services/*": ["src/services/*"],
+      "@config/*": ["src/config/*"],
+      "@hooks/*": ["src/hooks/*"]
     }
   },
 

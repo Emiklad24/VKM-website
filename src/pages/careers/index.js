@@ -60,7 +60,7 @@ const Careers = () => {
         <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3  mx-auto">
           <CareerCard />
         </div>
-        <Pagination />
+        {/* <Pagination /> */}
         {/* <div className="text-center">
           <Link href="/" passHref>
             <a

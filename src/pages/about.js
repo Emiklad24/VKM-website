@@ -12,7 +12,7 @@ const About = () => {
       effective solutions"
     >
       <Hero
-        headerPix="/about.webp"
+        headerPix="/light-blue-typewriter.jpg"
         title={"We’re here because of "}
         titleHighlighted={"you"}
         subtitle="Our goal is simply summarized as using our industry knowledge and

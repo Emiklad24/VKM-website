@@ -11,7 +11,7 @@ const publications = () => {
         description="Our team provides a consultative approach to problem solving. We are a team of experienced professionals who care about your success"
       >
         <Hero
-          headerPix="/projects.webp"
+          headerPix="/publication.jpg"
           title={"Featured  "}
           titleHighlighted={"Publications"}
           subtitle="Our team has published and been featured in a few articles "

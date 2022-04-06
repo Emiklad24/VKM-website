@@ -1,7 +1,7 @@
 import "@styles/globals.css";
 import PageProgressTransition from "@util/pageTransitionLoader/pageTransitionLoader";
 import Router from "next/router";
-import { useQueryClientAndsettings } from "@util/queryClient";
+import { useQueryClientAndsettings } from "@config/queryClient";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { QueryClientProvider } from "react-query";
 import { Hydrate } from "react-query/hydration";

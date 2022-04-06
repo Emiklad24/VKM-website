@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Container>
       <Hero
-        headerPix="/potrait-unsplash.webp"
+        headerPix="/hero.jpg"
         title={"Modern, seamless solutions at "}
         titleHighlighted={"record time"}
         subtitle=" With our strong and creative workforce, we customize and implement

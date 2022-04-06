@@ -1,0 +1,1 @@
+export const GET_ALL_TEAM = "GET_ALL_TEAM"
