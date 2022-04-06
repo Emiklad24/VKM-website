@@ -5,6 +5,7 @@ import teamMembers from "@assets/constants/TeamMembers-List";
 import Link from "next/link";
 
 const TeamMembers = ({teamMates}) => {
+
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 font-sans cursor-pointer">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -32,30 +33,30 @@ const TeamMembers = ({teamMates}) => {
         </p>
       </div> 
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-        {teamMembers.map((teamMember, idx) => (
+        {teamMates.map((teamMate, idx) => (
           <Link
-            key={teamMember?.name || idx}
-            href={`team/${teamMember.slug}`}
+            key={teamMate?.name || idx}
+            href={`/team/${teamMate.slug}` || ""}
             passHref
           >
             <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
               <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src={teamMember?.profileImage || ""}
-                alt={teamMember?.name || ""}
+                src={teamMate?.personal_photos?.[0]?.url || ""}
+                alt={teamMate?.personal_photos?.[0]?.alternativeText || ""}
                 height={500}
                 width={400}
                 layout="responsive"
               />
               <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                 <p className="mb-1 text-lg font-bold text-gray-100">
-                  {teamMember?.name || ""}
+                  {teamMate?.name || ""}
                 </p>
                 <p className="mb-4 text-xs text-gray-100">
-                  {teamMember?.designation || ""}
+                  {teamMate?.designation || ""}
                 </p>
                 <p className="mb-4 text-xs tracking-wide text-gray-100">
-                  {teamMember?.aboutShort || ""}
+                  {teamMate?.bio || ""}
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a className="text-white transition-colors duration-700 hover:text-mantis-700">

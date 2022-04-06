@@ -24,7 +24,7 @@ const Team = () => {
         titleHighlighted={"professionals"}
         subtitle="Our team provides a consultative approach to problem solving. We are a team of experienced professionals who care about your success"
       />
-      <TeamMembers data={data} />
+      <TeamMembers teamMates={data} />
     </Container>
   );
 };

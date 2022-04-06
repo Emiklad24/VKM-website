@@ -7,6 +7,6 @@ module.exports = withPWA({
   },
 
   images: {
-    domains: ["kitwind.io", "images.pexels.com", "images.unsplash.com"],
+    domains: ["kitwind.io", "images.pexels.com", "images.unsplash.com", "res.cloudinary.com"],
   },
 });
