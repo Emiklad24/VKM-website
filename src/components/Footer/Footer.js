@@ -61,7 +61,7 @@ const Footer = () => {
             <nav className="list-none mb-10">
               <li>
                 <Link
-                  href={"api/my-sitemap"}
+                  href={"/api/my-sitemap"}
                   className="text-gray-600 hover:text-gray-800"
                 >
                   Sitemap

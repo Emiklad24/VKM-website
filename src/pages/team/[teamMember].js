@@ -45,10 +45,10 @@ function TeamMember({ team }) {
         </div>
       </section>
     </Container>
-  );
+  ); 
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   return {
     props: {
       team: teamMembers,
