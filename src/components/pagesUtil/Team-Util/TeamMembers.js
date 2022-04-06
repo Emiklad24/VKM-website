@@ -3,8 +3,10 @@ import { RoughNotation } from "react-rough-notation";
 import Image from "next/image";
 import teamMembers from "@assets/constants/TeamMembers-List";
 import Link from "next/link";
+import { truncateText } from "@util/truncateText.util";
 
 const TeamMembers = ({teamMates}) => {
+  console.log(teamMates[0].bio.length)
 
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 font-sans cursor-pointer">
@@ -56,7 +58,7 @@ const TeamMembers = ({teamMates}) => {
                   {teamMate?.designation || ""}
                 </p>
                 <p className="mb-4 text-xs tracking-wide text-gray-100">
-                  {teamMate?.bio || ""}
+                  {truncateText(teamMate?.bio)}
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a className="text-white transition-colors duration-700 hover:text-mantis-700">

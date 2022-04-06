@@ -1,5 +1,5 @@
-import {GET_TEAM_MATE} from "@config/queryKeys"
-import {getTeamMate} from "@services/getTeamMate.service"
+import {GET_ALL_TEAM} from "@config/queryKeys"
+import {getTeam} from "@services/getTeam.service"
 import { useQuery } from "react-query";
 
 /**
@@ -9,8 +9,8 @@ import { useQuery } from "react-query";
 
 export const useGetTeam = () => {
     const { isLoading, isError, isFetched, data, error } = useQuery({
-        queryKey:GET_TEAM_MATE,
-        queryFn: getTeamMate,
+        queryKey: GET_ALL_TEAM,
+        queryFn: getTeam,
       });
 
       return {
