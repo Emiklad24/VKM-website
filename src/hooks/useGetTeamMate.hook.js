@@ -1,5 +1,5 @@
-import {GET_TEAM_MATE} from "@config/queryKeys"
-import {getTeamMate} from "@services/getTeamMate.service"
+import { GET_TEAM_MATE } from "@config/queryKeys";
+import { getTeamMate } from "@services/getTeamMate.service";
 import { useQuery } from "react-query";
 
 /**
@@ -7,17 +7,17 @@ import { useQuery } from "react-query";
  * @returns {Array}
  */
 
-export const useGetTeamMate = () => {
-    const { isLoading, isError, isFetched, data, error } = useQuery({
-        queryKey: GET_TEAM_MATE,
-        queryFn: getTeamMate,
-      });
+export const useGetTeamMate = (slug) => {
+  const { isLoading, isError, isFetched, data, error } = useQuery({
+    queryKey: [GET_TEAM_MATE, slug],
+    queryFn: getTeamMate,
+  });
 
-      return {
-        isLoading,
-        isError,
-        isFetched,
-        data,
-        error,
-      };
-}
+  return {
+    isLoading,
+    isError,
+    isFetched,
+    data,
+    error,
+  };
+};
