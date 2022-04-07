@@ -5,13 +5,33 @@ import { dehydrate, QueryClient } from "react-query";
 import { getTeamMate } from "@services/getTeamMate.service";
 import { GET_TEAM_MATE } from "@config/queryKeys";
 import { useGetTeamMate } from "@hooks/useGetTeamMate.hook";
-import Image from "next/image";
-
+import { IoLogoLinkedin, IoLogoFacebook } from "react-icons/io";
+import { BsMedium } from "react-icons/bs";
+import { SiDevdotto, SiOrcid, SiGitlab } from "react-icons/si";
+import {BsGlobe} from "react-icons/bs";
+import { VscGithubInverted } from "react-icons/vsc";
+import { FaTwitter } from "react-icons/fa";
 function TeamMember() {
   const {
     data: [teamMateData],
   } = useGetTeamMate();
 
+
+
+  const SocialMediaIcon = {
+    
+    linkedin: <IoLogoLinkedin color="#558830" size="33"/>,
+    facebook: <IoLogoFacebook color="#558830" size="33"/>,
+    gitlab: <SiGitlab color="#558830" size="33"/>,
+    "dev.to": <SiDevdotto color="#558830" size="33"/>,
+    orcid: <SiOrcid color="#558830" size="33"/>,
+    twitter: <FaTwitter color="#558830" size="33"/>,
+    github: <VscGithubInverted color="#558830" size="33"/>,
+    website: <BsGlobe color="#558830" size="33"/>,
+    }
+
+
+  
   return (
     <Container
       title={`${
@@ -24,26 +44,58 @@ function TeamMember() {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
               <div className="relative mx-auto md:ml-0 max-w-max">
-                <img src={data?.[0]?.personal_photos?.[0]?.url || ""} alt={data?.[0]?.personal_photos?.[0]?.alternativeText || ""} />
+                <img src={teamMateData?.personal_photos?.[0]?.url || ""} alt={teamMateData?.personal_photos?.[0]?.alternativeText || ""} />
               </div>
             </div>
             <div className="w-full md:w-1/2 px-4">
               <h2 className="mb-4 text-4xl md:text-5xl leading-tight font-bold tracking-tighter text-mantis-700">
-                {data?.[0]?.name || ""}
+                {teamMateData?.name || ""}
               </h2>
               <p className="mb-12 text-lg md:text-2xl leading-tight font-bold tracking-tighter">
-                {data?.[0]?.designation|| ""}
+                {teamMateData?.designation|| ""}
               </p>
               <div className="flex flex-wrap -mx-4 text-justify md:text-left">
-                <p className="text-lg leading-lg px-4">{data?.[0]?.bio|| ""}</p>
+                <p className="text-lg leading-lg px-4">{teamMateData?.bio|| ""}</p>
+              </div>
+              <div className="mt-8 py-4 flex justify-evenly">
+                {
+                  teamMateData?.profile_informations?.map((socialLink) => {
+                    return (
+                      <a
+                        key={socialLink.id}
+                        href={socialLink.Value}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        
+                      >
+                        {SocialMediaIcon[socialLink.type_of_profile_information]}
+                        
+                        
+                      </a>
+                    );
+                  })
+                }
+                
+                {/* <IoLogoLinkedin color="#558830" size="33"/>
+                <IoLogoFacebook color="#558830" size="33"/>
+                <BsMedium color="#558830" size="33"/>
+                <SiDevdotto color="#558830" size="33"/>
+                <BsGlobe color="#558830" size="33"/>
+                <SiOrcid color="#558830" size="33"/>
+                <VscGithubInverted color="#558830" size="33"/>
+                <SiGitlab color="#558830" size="33"/>
+                <FaTwitter color="#558830" size="33"/> */}
               </div>
             </div>
+            
           </div>
         </div>
       </section>
     </Container>
   );
 }
+
+
 
 export async function getStaticProps(ctx) {
   const { teamMember } = ctx.params;

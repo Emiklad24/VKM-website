@@ -20,7 +20,7 @@ export const useGetTeamMate = () => {
     isLoading,
     isError,
     isFetched,
-    data,
+    data: data|| [{}],
     error,
   };
 };
