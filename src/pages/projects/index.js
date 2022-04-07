@@ -41,10 +41,10 @@ const projects = () => {
             </RoughNotation>
           </h2>
 
-          {/* <p className="text-base text-gray-700 md:text-lg">
+          <p className="text-base text-gray-700 md:text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque rem aperiam, eaque ipsa quae.
-          </p> */}
+          </p>
         </div>
 
         <ProjectCard/>
