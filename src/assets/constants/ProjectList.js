@@ -2,6 +2,9 @@ import Health from "@assets/images/projects/health-info.webp";
 import TeacherAbs from "@assets/images/projects/teacher-absent.webp";
 import HealthInfo from "@assets/images/projects/civil-reg.webp";
 import PolicyPlan from "@assets/images/projects/landscape-nigeria.webp";
+import Folic from "@assets/images/projects/folic.jpg";
+import Child from "@assets/images/projects/child.jpg";
+import Unicef from "@assets/images/projects/unicef.jpg";
 import Reporta from  "../../../public/reporta.svg";
 const projectList = [
     {
@@ -41,7 +44,7 @@ const projectList = [
         name:"UNICEF Nigeria – Iron-Folic Acid Supply Chain Assessment in Northern Nigeria",
         slug:"UNICEF Nigeria – Iron-Folic Acid Supply Chain Assessment in Northern Nigeria",
         desc: "VKM was contracted by UNICEF in January 2019 to conduct an assessment of the Iron-Folic Acid supply chain system in six states (Jigawa, Katsina, Kebbi, Sokoto, Yobe, Zamfara) in Northern Nigeria.",
-        img:"https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+        img:Folic
     },
 
     {
@@ -49,7 +52,7 @@ const projectList = [
       name: " UNICEF Nigeria – Drivers of Violence Against Children",
       slug: "UNICEF Nigeria – Drivers of Violence Against Children",
       desc: "VKM in 2017/ 2018 provided consulting services to UNICEF Child Protection section. We conducted the Drivers of Violence Against Children study which required a systematic review of the literature, secondary data analysis and an interventions’ mapping across four focal states (Lagos, Cross River, Gombe and Plateau) of the country",
-      img: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+      img:Child
     },
 
     {
@@ -57,7 +60,7 @@ const projectList = [
        name: "UNICEF U-Report 24X7 Assessment",
          slug: "UNICEF U-Report 24X7 Assessment",
          desc: "VKM was contracted by UNICEF Nigeria (Management for Results Section) in February 2020 to conduct the U-Report 24X7 assessment in the humanitarian response states of Borno, Adamawa and Yobe...",
-         img: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+         img: Unicef
     },
 
     {
@@ -65,7 +68,7 @@ const projectList = [
         name:"UNICEF Strengthening Education Management Information System in Borno, Adamawa and Yobe states",
         slug:"UNICEF Strengthening Education Management Information System in Borno, Adamawa and Yobe states",
         desc:"UNICEF engaged VKM in October 2020 to support the strengthening of the education management information system in Borno, Adamawa and Yobe states. This project requires the assessment of the current EMIS, development of a 3-5 year strategic plan for the EMIS, conduct of a baseline census of schools and compilation of a statistics book from this effort, and development of the baseline EMIS.",
-        img:"https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+        img:Unicef
     },
 
     {

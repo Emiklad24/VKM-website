@@ -12,8 +12,7 @@ function SingleCareer({ career }) {
     const router = useRouter();
     const { careerDesc } = router.query;
     const currentJobInView = career.filter((job) => job.title === careerDesc);
-    console.log("hello", currentJobInView)
-    console.log("he", careerDesc)
+   
     return (
         <Container>
             <section className="py-24 bg-white overflow-hidden font-sans mb-4  ">

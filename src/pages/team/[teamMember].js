@@ -23,18 +23,18 @@ function TeamMember({ team }) {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
               <div className="relative mx-auto md:ml-0 max-w-max">
-                <img src={""} alt={""} />
+                <img src={data?.[0]?.personal_photos?.[0]?.url || ""} alt={data?.[0]?.personal_photos?.[0]?.alternativeText || ""} />
               </div>
             </div>
             <div className="w-full md:w-1/2 px-4">
               <h2 className="mb-4 text-4xl md:text-5xl leading-tight font-bold tracking-tighter text-mantis-700">
-                {""}
+                {data?.[0]?.name || ""}
               </h2>
               <p className="mb-12 text-lg md:text-2xl leading-tight font-bold tracking-tighter">
-                {""}
+                {data?.[0]?.designation|| ""}
               </p>
               <div className="flex flex-wrap -mx-4 text-justify md:text-left">
-                <p className="text-lg leading-lg px-4">{""}</p>
+                <p className="text-lg leading-lg px-4">{data?.[0]?.bio|| ""}</p>
               </div>
             </div>
           </div>
