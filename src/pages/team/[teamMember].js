@@ -43,7 +43,7 @@ function TeamMember() {
               <div className="flex flex-wrap -mx-4 text-justify md:text-left">
                 <p className="text-lg leading-lg px-4">{teamMateData?.bio|| ""}</p>
               </div>
-             <SocialIcons teamMateData={teamMateData} paint="#558830"/>
+             <SocialIcons teamMateData={teamMateData} paint="#558830" size="33"/>
             </div>
             
           </div>
