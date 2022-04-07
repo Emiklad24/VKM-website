@@ -1,23 +1,24 @@
 /* eslint-disable @next/next/no-img-element */
 import teamMembers from "@assets/constants/TeamMembers-List";
 import Container from "@components/Container/Container";
-import { useRouter } from "next/router";
 import { dehydrate, QueryClient } from "react-query";
 import { getTeamMate } from "@services/getTeamMate.service";
 import { GET_TEAM_MATE } from "@config/queryKeys";
 import { useGetTeamMate } from "@hooks/useGetTeamMate.hook";
+import Image from "next/image";
 
-function TeamMember({ team }) {
-  const router = useRouter();
-  const { teamMember } = router.query;
-  // const currentTeamMemeberInView = team.filter(
-  //   (teamPerson) => teamPerson.slug === teamMember
-  // );
-
-  const { data } = useGetTeamMate(teamMember);
+function TeamMember() {
+  const {
+    data: [teamMateData],
+  } = useGetTeamMate();
 
   return (
-    <Container title={`""} - ${""}`} description={""}>
+    <Container
+      title={`${
+        teamMateData?.name || "Team"
+      } - Welcome our talented team of professionals`}
+      description={`Our team provides a consultative approach to problem solving. We are a team of experienced professionals who care about your success`}
+    >
       <section className="py-24 bg-white overflow-hidden font-sans mb-4">
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap -mx-4">
