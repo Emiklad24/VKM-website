@@ -5,9 +5,7 @@ import teamMembers from "@assets/constants/TeamMembers-List";
 import Link from "next/link";
 import { truncateText } from "@util/truncateText.util";
 
-const TeamMembers = ({teamMates}) => {
-  console.log(teamMates[0].bio.length)
-
+const TeamMembers = ({ teamMates }) => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 font-sans cursor-pointer">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -33,7 +31,7 @@ const TeamMembers = ({teamMates}) => {
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque rem aperiam, eaque ipsa quae.
         </p>
-      </div> 
+      </div>
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         {teamMates.map((teamMate, idx) => (
           <Link
