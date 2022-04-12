@@ -44,14 +44,7 @@ const Footer = () => {
                   Projects
                 </Link>
               </li>
-              <li>
-                <Link
-                  href={"/publications"}
-                  className="text-gray-600 hover:text-gray-800"
-                >
-                  Publications
-                </Link>
-              </li>
+             
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -76,10 +69,18 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link
+                  href={"/publications"}
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  Publications
+                </Link>
+              </li>
+              {/* <li>
                 <Link href={"#"} className="text-gray-600 hover:text-gray-800">
                   Blog
                 </Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link href={"#"} className="text-gray-600 hover:text-gray-800">
                   Info
