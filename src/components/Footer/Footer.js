@@ -80,11 +80,11 @@ const Footer = () => {
                   Blog
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href={"#"} className="text-gray-600 hover:text-gray-800">
                   Info
                 </Link>
-              </li>
+              </li> */}
             </nav>
           </div>
 
@@ -95,6 +95,12 @@ const Footer = () => {
             <p>
               Viable Knowledge Masters, Plot C114 Platinum Plaza, Second Floor
               1st Avenue, Gwarinpa, FCT Abuja.
+            </p>
+            <p>
+             +234 9064137838
+            </p>
+            <p>
+             info@viableknowledgemasters.com
             </p>
           </div>
         </div>

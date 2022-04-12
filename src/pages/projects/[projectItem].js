@@ -27,7 +27,7 @@ function SingleProject({ project }) {
             <div className="flex items-center justify-center">
               <div className="mr-6">
                 <img
-                  className="w-16 h-16 object-cover rounded-full"
+                  className="w-full h-16 object-cover rounded-xl "
                   src="/unicef.png"
                   alt=""
                 />
@@ -46,9 +46,9 @@ function SingleProject({ project }) {
             className="w-full h-full object-cover"
             src={currentProjectInView?.[0].img || ""}
             alt={currentProjectInView?.[0].name || ""}
-            layout="responsive"
-            height={50}
-            width={50}
+            layout="intrinsic"
+            height={1000}
+            width={2000}
           />
         </div>
         <div className="container px-4 mx-auto">

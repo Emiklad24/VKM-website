@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const ProjectCard = () => {
   return (
-    <>
+    <> 
          <div className="grid gap-6 row-gap-5 lg:grid-cols-3">
           {projectList.map((project, idx) =>(
             <div key={project?.name || idx}>
