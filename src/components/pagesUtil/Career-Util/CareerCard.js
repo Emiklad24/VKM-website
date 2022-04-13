@@ -7,7 +7,7 @@ const CareerCard = () => {
     <>
       {path.map((path, idx) => (
         <div
-          className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2"
+          className="p-5 duration-300 transform bg-white border rounded shadow-lg hover:-translate-y-2"
           key={path?.title || idx}
         >
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">

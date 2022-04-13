@@ -4,7 +4,7 @@ const PublicationCard = () => {
     return (
         <>
         {publications.map((publication, idx) =>(
-            <div key={publication?.title || idx} className=" w-full my-8 p-4 border rounded shadow-sm bg-mantis-950">
+            <div key={publication?.title || idx} className=" w-full my-8 p-4 border rounded shadow-lg bg-mantis-950">
             <p className="text-base leading-relaxed px-4"><span className="font-semibold mr-4 text-mantis-700">Title:</span>{publication?.title || ""} </p>
             <p className="text-base leading-relaxed px-4"><span className="font-semibold mr-4 text-mantis-700">Contributors:</span>{publication?.team || ""}</p>
             <p className="text-base leading-relaxed px-4"><span className="font-semibold mr-4 text-mantis-700">Citation:</span> {publication?.citation|| ""}</p>

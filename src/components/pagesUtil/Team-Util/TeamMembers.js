@@ -9,6 +9,8 @@ import SocialIcons from "@components/Socials/SocialIcons";
 
 const TeamMembers = ({teamMates}) => {
   const {docsDetails, otherTeamMates} =  useTransFormTeamMateData(teamMates)
+  console.log(otherTeamMates[0].personal_photos[0].formats.medium.url)
+  // docsDetails?.personal_photos?.[0]?.url
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 font-sans cursor-pointer">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -46,7 +48,7 @@ const TeamMembers = ({teamMates}) => {
               className="object-cover w-full h-56 md:h-64 xl:h-80"
               src={docsDetails?.personal_photos?.[0]?.url || ""}
               alt={docsDetails?.personal_photos?.[0]?.alternativeText || ""}
-              height={500}
+              height={600}
               width={400}
               layout="responsive"
             />
@@ -77,7 +79,7 @@ const TeamMembers = ({teamMates}) => {
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
                 src={teamMate?.personal_photos?.[0]?.url || ""}
                 alt={teamMate?.personal_photos?.[0]?.alternativeText || ""}
-                height={500}
+                height={600}
                 width={400}
                 layout="responsive"
               />
