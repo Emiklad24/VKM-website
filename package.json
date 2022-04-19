@@ -1,5 +1,5 @@
 {
-  "name": "reaps-next",
+  "name": "vkm-website",
   "private": true,
   "scripts": {
     "dev": "next dev",
