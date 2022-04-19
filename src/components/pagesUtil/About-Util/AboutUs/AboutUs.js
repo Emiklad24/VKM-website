@@ -112,31 +112,7 @@ export default function AboutUs() {
               Hercules.
             </p>
           </div>
-          <div className="max-w-md">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
-              <svg
-                className="w-12 h-12 text-mantis-700"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <h6 className="mb-2 font-bold leading-5 text-mantis-700">
-              Strategy
-            </h6>
-            <p className="text-md text-gray-700 leading-8">
-              Disrupt inspire and think tank, social entrepreneur but
-              preliminary thinking think tank compelling. Inspiring, invest
-              synergy capacity.
-            </p>
-          </div>
+         
         </div>
       </div>
     </div>
