@@ -53,6 +53,19 @@ const publications = () => {
                     Read : <a href={publication?.team || ""}>Here</a>
                   </p> */}
                 </div>
+                <div className="mb-4 sm:mb-0">
+                  <div className="space-y-1 text-xs font-semibold tracking-wide uppercase">
+                    <a
+                      className="transition-colors duration-200 text-mantis-700 hover:text-deep-purple-800"
+                      aria-label="Category"
+                    >
+                      Related Project
+                    </a>
+                    <p className="text-mantis-600 lg:w-32">
+                      Unicef fight against gender inequality
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           ))}

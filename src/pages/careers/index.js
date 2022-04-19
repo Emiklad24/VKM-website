@@ -12,7 +12,7 @@ const Careers = () => {
       description="Won't you like to join a team of passionate experts who know how to have fun ?"
     >
       <Hero
-        headerPix="/projects.webp"
+        headerPix="/career.jpg"
         title={"We want  "}
         titleHighlighted={"you here"}
         subtitle="Won't you like to join a team of passionate experts who know how to have fun ?"

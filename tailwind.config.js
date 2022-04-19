@@ -50,7 +50,9 @@ module.exports = {
       },
       height: {
         97: "97%",
-        half: "75vh"
+        98: "75vh",
+        half: "75vh",
+        hero: "90vh",
       },
       maxHeight: {
         0: "0",

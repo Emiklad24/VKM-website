@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const Container = ({ children, ...customMeta }) => {
   const router = useRouter();
-  
+
 
   const meta = {
     title:
@@ -25,6 +25,7 @@ const Container = ({ children, ...customMeta }) => {
         <link rel="icon" href="/vkm_logo.png" />
         <link rel="apple-touch-icon" href="/vkm_logo.png" />
         <title>{meta.title}</title>
+        <meta name="viewport" content="eidth=device-width, initial-scale=1" />
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <meta
