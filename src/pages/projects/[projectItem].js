@@ -11,11 +11,12 @@ function SingleProject({ project }) {
     (teamProject) => teamProject.slug === projectItem
   );
 
+  const clients = currentProjectInView[0].logo
+  console.log(clients)
   return (
     <Container
-      title={`${currentProjectInView?.[0]?.name || ""} - ${
-        currentProjectInView?.[0]?.desc || ""
-      }`}
+      title={`${currentProjectInView?.[0]?.name || ""} - ${currentProjectInView?.[0]?.desc || ""
+        }`}
       description={currentProjectInView?.[0]?.desc || ""}
     >
       <section className="py-20 font-sans">
@@ -24,32 +25,52 @@ function SingleProject({ project }) {
             <h2 className="mb-6 text-3xl leading-tight md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight font-bold font-heading text-mantis-700">
               {currentProjectInView?.[0].name || ""}
             </h2>
-            <div className="flex items-center justify-center">
-              <div className="mr-6">
-                <img
-                  className="w-full h-16 object-cover rounded-xl "
-                  src="/unicef.png"
-                  alt=""
-                />
+            <div className="flex flex-col justify-center items-center">
+
+              <div className="flex flex-col lg:flex-row items-center justify-center lg:w-2/5 ">
+                {clients?.map((client, idx) => (
+
+                  <div key={client?.name || ""} className="lg:mr-4">
+                    <Image
+                      key={client?.one || ""}
+                      src={client?.one || ""}
+                      alt={client?.one || ""}
+                      layout="intrinsic"
+                      width={100}
+                      height={100}
+
+                    />
+                  </div>
+
+                ))}
               </div>
+
+
+
+
+
               <div>
                 <h3 className="text-2xl font-bold font-heading text-mantis-700">
-                  UNICEF
+                  {currentProjectInView?.[0].client || ""}
                 </h3>
-                <p className="text-lg text-mantis-700">February 26, 2021</p>
+                {/* <p className="text-lg text-mantis-700">February 26, 2021</p> */}
               </div>
             </div>
           </div>
         </div>
-        <div className=" mb-12 lg:mb-16 ">
-          <Image
-            className="w-full h-full object-cover"
-            src={currentProjectInView?.[0].img || ""}
-            alt={currentProjectInView?.[0].name || ""}
-            layout="intrinsic"
-            height={1000}
-            width={2000}
-          />
+        <div className=" mb-12 lg:mb-16 flex justify-center align-center  ">
+
+          <div className=" rounded-xl p-0 ">
+            <Image
+              className="rounded-xl"
+              src={currentProjectInView?.[0].img || ""}
+              alt={currentProjectInView?.[0].name || ""}
+              layout="intrinsic"
+              width={1000}
+              height={700}
+
+            />
+          </div>
         </div>
         <div className="container px-4 mx-auto">
           <div className="max-w-2xl mx-auto">

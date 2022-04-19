@@ -1,14 +1,13 @@
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 import Image from "next/image";
-
 import Link from "next/link";
 import { truncateText } from "@util/truncateText.util";
 import { useTransFormTeamMateData } from "@hooks/useTransformTeamMateData";
 import SocialIcons from "@components/Socials/SocialIcons";
 
-const TeamMembers = ({teamMates}) => {
-  const {docsDetails, otherTeamMates} =  useTransFormTeamMateData(teamMates)
+const TeamMembers = ({ teamMates }) => {
+  const { docsDetails, otherTeamMates } = useTransFormTeamMateData(teamMates)
   console.log(otherTeamMates[0].personal_photos[0].formats.medium.url)
   // docsDetails?.personal_photos?.[0]?.url
   return (
@@ -36,10 +35,10 @@ const TeamMembers = ({teamMates}) => {
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque rem aperiam, eaque ipsa quae.
         </p>
-      </div> 
+      </div>
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-      <Link
-          
+        <Link
+
           href={`/team/${docsDetails?.slug}` || ""}
           passHref
         >
@@ -60,7 +59,7 @@ const TeamMembers = ({teamMates}) => {
                 {docsDetails?.designation || ""}
               </p>
               <p className="mb-4 text-xs tracking-wide text-gray-100">
-                {truncateText(docsDetails?.bio)}
+                {truncateText(docsDetails?.bio, 325)}
               </p>
               <div className="flex items-center justify-center space-x-3">
                 {/* <SocialIcons teamMateData={docsDetails} paint="white" size="20"/> */}
@@ -94,7 +93,7 @@ const TeamMembers = ({teamMates}) => {
                   {truncateText(teamMate?.bio)}
                 </p>
                 <div className="flex items-center justify-center space-x-3">
-                {/* <SocialIcons teamMateData={teamMate} paint="white" size="20"/> */}
+                  {/* <SocialIcons teamMateData={teamMate} paint="white" size="20"/> */}
                 </div>
               </div>
             </div>

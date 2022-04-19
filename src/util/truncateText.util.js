@@ -6,10 +6,10 @@
  * @returns { Array }
  * @param {String} stringToBeTruncated
  */
-export const truncateText =  (stringToBeTruncated,  length ) => {
-  
-    if (stringToBeTruncated.length >= 325) {
-        return stringToBeTruncated.substring(0, 325) + "..."
+export const truncateText = (stringToBeTruncated, length) => {
+
+    if (stringToBeTruncated.length >= length) {
+        return stringToBeTruncated.substring(0, length) + "..."
     }
 
     return stringToBeTruncated

@@ -3,7 +3,7 @@ import { apiUrl } from "@config/index";
 
 const instanceSettings = {
   baseURL: apiUrl,
-  timeout: 3e0000,
+  timeout: 30000,
 };
 
 
