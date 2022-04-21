@@ -5,7 +5,7 @@ const Contact = () => {
     <section className="text-gray-600 body-font relative font-sans">
       <div className="absolute inset-0 bg-gray-300">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3939.526894998704!2d7.414968614719846!3d9.106789293466964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1643902591488!5m2!1sen!2sng"
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJy5YI4_x1ThARrFKdmLvZ3Cc&key=AIzaSyDEtzmKOgp__jUIudCru2GBB8rsK0p2KPs"
           width="100%"
           height="100%"
           allowFullScreen=""
@@ -15,6 +15,7 @@ const Contact = () => {
           marginWidth="0"
           title="map"
         ></iframe>
+        
       </div>
       <div className="container px-5 py-24 mx-auto flex">
         <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
