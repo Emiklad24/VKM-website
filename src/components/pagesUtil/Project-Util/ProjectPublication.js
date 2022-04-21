@@ -9,7 +9,7 @@ const ProjectPublication = ({ publication }) => {
 
     return (
         <div className='flex items-center justify-center py-8 '>
-            <div className='relative flex flex-col items-center justify-center w-10/12 lg:w-6/12 shadow-2xl rounded-xl py-8 bg-mantis-50'>
+            <div className='relative flex flex-col items-center justify-center w-10/12 lg:w-6/12 shadow-2xl rounded-xl p-8 bg-mantis-50'>
 
                 <p className='text-2xl text-mantis-700'>{!view ? " Click to see related publications" : "Related Publications"} </p>
                 {!view ? <button onClick={toggleView} className='text-mantis-700 hover:text-white hover:bg-mantis-700 border border-2 border-mantis-700 rounded-lg p-2 mt-4'>View Publications</button> : ""}
