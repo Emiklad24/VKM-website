@@ -14,9 +14,9 @@ const ProjectPublication = ({ publication }) => {
                 <p className='text-2xl text-mantis-700'>{!view ? " Click to see related publications" : "Related Publications"} </p>
                 {!view ? <button onClick={toggleView} className='text-mantis-700 hover:text-white hover:bg-mantis-700 border border-2 border-mantis-700 rounded-lg p-2 mt-4'>View Publications</button> : ""}
                 {view ? <div className='w-4/6 min-w-4/6 mt-8 '>
-                    <ul className='w-full list-disc '>
+                    <ul className='w-full list-disc'>
                         {publication?.map((item, idx) => (
-                            <a key={idx} className="cursor-pointer text-blue-800" href={item.link} target="blank"><li className='mb-4' >{item.link}</li></a>
+                            <a key={idx} className="cursor-pointer text-blue-800 w-full" href={item.link} target="blank"> <li className='mb-4 w-full break-words' >{item.link}</li></a>
 
                         ))}
                     </ul>
