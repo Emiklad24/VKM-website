@@ -5,6 +5,7 @@ import PolicyPlan from "@assets/images/projects/landscape-nigeria.webp";
 import Folic from "@assets/images/projects/folic.jpg";
 import Child from "@assets/images/projects/child.jpg";
 import Unicef from "@assets/images/projects/unicef.jpg";
+
 import Unicef_ from "../../../public/unicef.png";
 import Reporta from "../../../public/reporta.svg";
 import Vkm from "../../../public/vkm_logo.png";
@@ -258,7 +259,5 @@ const projectList = [
 
 
 ]
-
-
 
 export default projectList;
