@@ -61,7 +61,7 @@ function SingleProject({ project }) {
             </div>
           </div>
         </div>
-        <div className=" mb-12 lg:mb-16 flex justify-center align-center  ">
+        <div className=" mb-12 lg:mb-16 flex justify-center align-center p-4 ">
 
           <div className=" rounded-xl p-0 ">
             <Image
