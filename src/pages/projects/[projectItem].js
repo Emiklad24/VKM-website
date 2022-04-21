@@ -3,6 +3,7 @@ import projectList from "@assets/constants/ProjectList";
 import Container from "@components/Container/Container";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import ProjectPublication from "@components/pagesUtil/Project-Util/ProjectPublication";
 
 function SingleProject({ project }) {
   const router = useRouter();
@@ -12,6 +13,8 @@ function SingleProject({ project }) {
   );
 
   const clients = currentProjectInView[0].logo
+  const publications = currentProjectInView[0].publications
+  console.log("public", publications)
   console.log(clients)
   return (
     <Container
@@ -32,7 +35,7 @@ function SingleProject({ project }) {
 
                   <div key={client?.name || ""} className="lg:mr-4">
                     <Image
-                      key={client?.one || ""}
+                      key={client?.idx || ""}
                       src={client?.one || ""}
                       alt={client?.one || ""}
                       layout="intrinsic"
@@ -79,6 +82,7 @@ function SingleProject({ project }) {
             </p>
           </div>
         </div>
+        {publications ? <ProjectPublication publication={publications} /> : ""}
       </section>
     </Container>
   );

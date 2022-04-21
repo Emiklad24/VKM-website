@@ -13,7 +13,7 @@ import fhi from "../../../public/fhi.png";
 import white from "../../../public/white-ribbon.png";
 import ty from "../../../public/ty.jpg";
 import brac from "../../../public/brac.png";
-import align from "../../../public/align.jpg";
+import align from "../../../public/align.png";
 
 
 const projectList = [
@@ -25,7 +25,21 @@ const projectList = [
         desc: " VKM developed the Nigeria Health Facility Registry (HFR) for the Federal Ministry of Health in 2017. The project was funded by USAID through the MEASURE Evaluation project. The Health Facility Registry is a multilayered system with two functional sides: the public facing side and an administrative section. The public facing side has a map and tables on four different classes of health facilities (Hospitals and Clinics, Laboratories, Imaging Centers, and Pharmaceutical Premises). Public users can search for facilities around the country based on the location and services of interest. The homepage shows a Choropleth map of Nigeria in which the color changes based on the number of health facilities in the state. The public user can drill down to seeing the state map which shows a choropleth map of the Local Government Areas. A user can further drill down to seeing the health facility layer in a Google Map view. The administrative section permits interaction by the officers in the Ministry of Health across the 36 states of the country and the Federal Capital Territory after authentication. These officers are responsible for keeping the data updated when they register new health facilities on an ongoing basis. The HFR has several Application Programming Interfaces (APIs) that enable other systems to connect with and retrieve data from the HFR. It is also linked with the Google API to provide live maps. ",
         img: Health,
         client: "Federal Ministry of health",
-        logo: [{ one: coat }]
+        logo: [{ one: coat }],
+        publications: [
+            {
+                link: "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4235326/"
+            },
+            {
+                link: "http://him.sagepub.com/content/45/2/90"
+            },
+            {
+                link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5266756/"
+            },
+            {
+                link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/hpm.2603"
+            },
+        ]
     },
 
     {
@@ -47,7 +61,18 @@ const projectList = [
         desc: "VKM has carried out several studies on birth registration in Nigeria collaborating with researchers across the world in the process. We are continuing to contribute to the general discussion on CRVS in Nigeria through our scholarly works. Our research products are available online and are routinely consulted from across the world. These have been cited from far and near. ",
         img: HealthInfo,
         client: "VKM",
-        logo: [{ one: Vkm }]
+        logo: [{ one: Vkm }],
+        publications: [
+            {
+                link: "https://www.tandfonline.com/doi/full/10.1080/16549716.2020.1811476?scroll=top&needAccess=true "
+            },
+            {
+                link: "http://www.demographic-research.org/volumes/vol35/12/"
+            },
+            {
+                link: "http://bjsm.bmj.com/content/early/2017/04/27/bjsports-2016-097404 "
+            },
+        ]
     },
 
     {
@@ -58,7 +83,21 @@ const projectList = [
         desc: " VKM has expertise in the development of national level policies and strategic plans. Our chief executive led the development of the Nigeria Health Information System Strategic Plan (2014-2018) and the Sierra Leone Health Information System Strategic Plan (2017-2021). He has also conducted active research in policy and advocated for the enactment of laws to improve the performance of the health system in general. ",
         img: PolicyPlan,
         client: "VKM",
-        logo: [{ one: coat }]
+        logo: [{ one: coat }],
+        publications: [
+            {
+                link: "https://onlinelibrary.wiley.com/doi/abs/10.1111/hir.12240"
+            },
+            {
+                link: "http://journals.sagepub.com/doi/full/10.1177/1524838015591588"
+            },
+            {
+                link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/hpm.2603"
+            },
+            {
+                link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/hpm.260http://www.health.gov.ng/doc/National%20HIS%20Strategic%20Plan.pdf"
+            },
+        ]
     },
 
     {
@@ -80,7 +119,12 @@ const projectList = [
         desc: "VKM in 2018 provided consulting services to UNICEF Child Protection section. We conducted the Drivers of Violence Against Children study which required a systematic review of the literature, secondary data analysis and an interventions’ mapping across four focal states (Lagos, Cross River, Gombe and Plateau) in Nigeria. On this project we worked with the Federal Ministry of Women Affairs and Social Development, the Ministry of Women Affairs and Social Development across the four states, the National Population Commission, Federal Ministry of Health, and other government institutions represented in the “End Violence Against Children” Technical Working Group. ",
         img: Child,
         client: "Unicef",
-        logo: [{ one: Unicef_ }]
+        logo: [{ one: Unicef_ }],
+        publications: [
+            {
+                link: "https://www.end-violence.org/sites/default/files/paragraphs/download/study%20nigeria.pdf "
+            }
+        ]
     },
 
     {
@@ -125,7 +169,24 @@ const projectList = [
         desc: "VKM has over the last couple of years carried out a nationwide study on the Compliance with Disease Surveillance and Notification by Private Healthcare Providers in the country. This study was a mixed methods study that included laws and policy analysis, key informant interviews and a cross sectional health facility survey across six states of the Southwest. ",
         client: "VKM",
         img: Vkm,
-        logo: [{ one: Vkm }]
+        logo: [{ one: Vkm }],
+        publications: [
+            {
+                link: "http://www.jidc.org/index.php/journal/article/view/8148"
+            },
+            {
+                link: "http://ojphi.org/ojs/index.php/ojphi/article/view/8649"
+            },
+            {
+                link: "http://ojphi.org/ojs/index.php/ojphi/article/view/6554"
+            },
+            {
+                link: "http://www.panafrican-med-journal.com/content/article/31/22/full/"
+            },
+            {
+                link: "http://www.panafrican-med-journal.com/content/article/35/114/full/"
+            },
+        ]
     },
     {
         id: 10,
@@ -179,14 +240,20 @@ const projectList = [
     },
     {
         id: 15,
-        name: " Advancing Learning and Innovation on Gender Norms (ALIGN) ",
-        slug: "Advancing Learning and Innovation on Gender Norms (ALIGN) ",
-        desc_short: " VKM in collaboration with Viable Helpers Development Organization (VHDO) was provided a grant in support of the conduct of a study on Gender-Based Violence in male-dominated industries in Nigeria.   ",
-        desc: "VKM in collaboration with Viable Helpers Development Organization (VHDO) was provided a grant in support of the conduct of a study on Gender-Based Violence in male-dominated industries in Nigeria. The study particularly examined the information and communications technology sector in the country which is a fast-growing industry and has produced three unicorns (valued at more than $1 billion dollars) in a short time. The study utilized qualitative methods to address the objectives of the study. A report of the findings has been published on the ALIGN website ",
+        name: "Advancing Learning and Innovation on Gender Norms (ALIGN) ",
+        slug: "Advancing Learning and Innovation on Gender Norms (ALIGN)",
+        desc_short: "VKM in collaboration with Viable Helpers Development Organization (VHDO) was provided a grant in support of the conduct of a study on Gender-Based Violence in male-dominated industries in Nigeria.",
+        desc: "VKM in collaboration with Viable Helpers Development Organization (VHDO) was provided a grant in support of the conduct of a study on Gender-Based Violence in male-dominated industries in Nigeria. The study particularly examined the information and communications technology sector in the country which is a fast-growing industry and has produced three unicorns (valued at more than $1 billion dollars) in a short time. The study utilized qualitative methods to address the objectives of the study.",
         img: align,
         client: "ALIGN",
-        logo: [{ one: align }]
+        logo: [{ one: align }],
+        publications: [
+            {
+                link: "https://www.alignplatform.org/resources/gender-based-violence-male-dominated-industry-identifying-and-responding-challenges "
+            }
+        ]
     },
+
 
 
 
