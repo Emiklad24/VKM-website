@@ -65,7 +65,7 @@ const TeamMembers = ({ teamMates }) => {
         {otherTeamMates.map((teamMate, idx) => (
           <Link
             key={teamMate?.name || idx}
-            href={`/team/${teamMate.slug}` || ""}
+            href={`/team/${teamMate?.slug}` || ""}
             passHref
           >
             <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">

@@ -13,7 +13,7 @@ module.exports = withPWA({
       "images.unsplash.com",
       "res.cloudinary.com",
     ],
-    loader: "akamai",
-    path: "/",
+    // loader: "akamai",
+    // path: "/",
   },
 });
