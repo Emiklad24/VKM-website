@@ -3,24 +3,21 @@ export const publicationsWorks = [
     team: "	Okunlola DA, Makinde OA, Babalola S",
     title:
       "Socio-economic Correlates of Marital Status and Marriage Timing Among Adult Men in Nigeria",
-    citation:
-      "J Fam Issues [Internet]. 2022 Jan 6 [cited 2022 Jan 7];",
+    citation: "J Fam Issues [Internet]. 2022 Jan 6 [cited 2022 Jan 7];",
     link: "https://journals.sagepub.com/eprint/HA2GMR4IUG9MIDB4JAYZ/full",
   },
   {
     team: "Makinde OA, Akinyemi JO, Ntoimo LF, Ajaero CK, Ononokpono D, Banda PC, Adewoyin Y, Petlele R, Ugwu H, Odimegwu CO.",
     title:
       "2021. Risk assessment for COVID-19 transmission at household level in sub-Saharan Africa: evidence from DHS. ",
-    citation:
-      "Genus. 77(1):24. ",
+    citation: "Genus. 77(1):24. ",
     link: "https://doi.org/10.1186/s41118-021-00130-w",
   },
   {
     team: "Makinde, O., Mgbachi, I., & Salau, A. ",
     title:
       "(2021). 341The birth of an electronic chronic disease registry bank in Nigeria. ",
-    citation:
-      "International Journal of Epidemiology, 50(Supplement_1).  ",
+    citation: "International Journal of Epidemiology, 50(Supplement_1).  ",
     link: "https://doi.org/10.1093/ije/dyab168.413",
   },
   {
@@ -35,8 +32,7 @@ export const publicationsWorks = [
     team: "Makinde OA, Odimegwu CO, Udoh MO, et al. ",
     title:
       "Death registration in Nigeria: a systematic literature review of its performance and challenges.",
-    citation:
-      "Glob Health Action. 2020;13(1):1811476. ",
+    citation: "Glob Health Action. 2020;13(1):1811476. ",
     link: "https://doi.org/10.1080/16549716.2020.1811476",
   },
   {
@@ -114,7 +110,7 @@ export const publicationsWorks = [
       "Status of Legislation and Factors affecting Disease Surveillance in Nigeria: A qualitative inquiry.",
     citation:
       "In: Proceedings of the International Society for Disease Surveillance Conference. Florida, USA; 2018.",
-    link: "",
+    link: "#",
   },
   {
     team: "The Federal Ministry of Women Affairs and Social Development, The University of Edinburgh, Viable Knowledge Masters, UNICEF Nigeria.",
@@ -122,7 +118,7 @@ export const publicationsWorks = [
       "The Drivers of Violence Affecting Children in Nigeria: Synthesis of Findings. Abuja, Nigeria; 2018.",
     citation:
       "The Drivers of Violence Affecting Children in Nigeria: Synthesis of Findings. Abuja, Nigeria; 2018.",
-    link: "",
+    link: "#",
   },
   {
     team: "Makinde OA, Onyemelukwe C, Onigbanjo-Williams A, Oyediran KA, Odimegwu CO.",
@@ -216,7 +212,7 @@ export const publicationsWorks = [
       "Violence Against Women and Girls in Nigerian Baby Factories: Is it over?",
     citation:
       "Ending Gender Inequalities. Chapel Hill, NC.: RTI International; 2016.",
-    link: "",
+    link: "#",
   },
   {
     team: "Makinde OA, Odimegwu CO.",
@@ -244,7 +240,7 @@ export const publicationsWorks = [
     team: "Makinde OA, Makinde OO, Olaleye O, Brown B, Odimegwu CO.",
     title: "Baby factories taint surrogacy in Nigeria.",
     citation: "Reproductive biomedicine online. 2016;32(1):6–8.",
-    link: "",
+    link: "#",
   },
   {
     team: "Williams AO, Makinde OA, Ojo M.",
@@ -349,7 +345,7 @@ export const publicationsWorks = [
     title:
       "Assessment of the Routine Health Management Information System in Kebbi State, Federal Republic of Nigeria. ",
     citation: "Bethesda, MD: Abt Associates Inc.; 2012 Sep.",
-    link: "",
+    link: "#",
   },
   {
     team: "Makinde OA, Onazi M, Adeleke O, Ohadi EM, Dieng A, Osika JS.",
@@ -389,7 +385,7 @@ export const publicationsWorks = [
     title:
       "Sexual abuse of brothel based female sex workers in Abuja, Nigeria.",
     citation: "Sexuality in Africa. 2008;5(3):10–1.",
-    link: "",
+    link: "#",
   },
   {
     team: "Asangansi IE, Adejoro OO, Farri O, Makinde O.",
@@ -404,6 +400,6 @@ export const publicationsWorks = [
     title:
       "A comparison of the survival and fatality rates of measles in the pre-vaccination and post-vaccination age groups [Postgraduate Research].",
     citation: "[Ibadan, Nigeria]: University of Ibadan, Nigeria; 2006.",
-    link: "",
+    link: "#",
   },
 ];

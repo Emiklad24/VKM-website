@@ -2,6 +2,7 @@ import React from "react";
 import Container from "@components/Container/Container";
 import Hero from "@components/Hero/Hero";
 import { publicationsWorks } from "@assets/constants/Publications";
+import Link from "next/link";
 
 const publications = () => {
   return (
@@ -20,7 +21,7 @@ const publications = () => {
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 font-sans">
           {publicationsWorks.map((publication, idx) => (
             <div
-              className="mb-10 border-t border-b divide-y"
+              className="mb-10 border-t border-b divide-y "
               key={publication.title || idx}
             >
               <div className="grid py-8 sm:grid-cols-4">
@@ -42,6 +43,9 @@ const publications = () => {
                     <a
                       aria-label="Article"
                       className="inline-block transition-colors duration-200 hover:text-mantis-700 text-mantis-600"
+                      href={publication?.link || "#"}
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <p className="text-2xl font-extrabold leading-none ">
                         {publication?.title || ""}
