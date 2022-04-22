@@ -7,9 +7,8 @@ import { useTransFormTeamMateData } from "@hooks/useTransformTeamMateData";
 import SocialIcons from "@components/Socials/SocialIcons";
 
 const TeamMembers = ({ teamMates }) => {
-  const { docsDetails, otherTeamMates } = useTransFormTeamMateData(teamMates)
-  console.log(otherTeamMates[0].personal_photos[0].formats.medium.url)
-  // docsDetails?.personal_photos?.[0]?.url
+  const { docsDetails, otherTeamMates } = useTransFormTeamMateData(teamMates);
+
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 font-sans cursor-pointer">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -37,11 +36,7 @@ const TeamMembers = ({ teamMates }) => {
         </p>
       </div>
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-        <Link
-
-          href={`/team/${docsDetails?.slug}` || ""}
-          passHref
-        >
+        <Link href={`/team/${docsDetails?.slug}` || ""} passHref>
           <div className="relative overflow-hidden transition duration-700 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <Image
               className="object-cover w-full h-56 md:h-64 xl:h-80"

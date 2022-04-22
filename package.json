@@ -1,9 +1,10 @@
 {
   "name": "vkm-website",
+  "homepage": "https://viableknowledgemasters.com/",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -23,6 +24,7 @@
     "react-rough-notation": "^1.0.1",
     "react-visibility-sensor": "^5.1.1",
     "sitemap": "^7.1.1",
+    "slugify": "^1.6.5",
     "yup": "^0.32.11",
     "zustand": "^3.6.9"
   },

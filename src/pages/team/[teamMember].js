@@ -12,12 +12,6 @@ function TeamMember() {
     data: [teamMateData],
   } = useGetTeamMate();
 
-
-
- 
-
-
-  
   return (
     <Container
       title={`${
@@ -30,7 +24,12 @@ function TeamMember() {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
               <div className="relative mx-auto md:ml-0 max-w-max">
-                <img src={teamMateData?.personal_photos?.[0]?.url || ""} alt={teamMateData?.personal_photos?.[0]?.alternativeText || ""} />
+                <img
+                  src={teamMateData?.personal_photos?.[0]?.url || ""}
+                  alt={
+                    teamMateData?.personal_photos?.[0]?.alternativeText || ""
+                  }
+                />
               </div>
             </div>
             <div className="w-full md:w-1/2 px-4">
@@ -38,22 +37,25 @@ function TeamMember() {
                 {teamMateData?.name || ""}
               </h2>
               <p className="mb-12 text-lg md:text-2xl leading-tight font-bold tracking-tighter">
-                {teamMateData?.designation|| ""}
+                {teamMateData?.designation || ""}
               </p>
               <div className="flex flex-wrap -mx-4 text-justify md:text-left">
-                <p className="text-lg leading-lg px-4">{teamMateData?.bio|| ""}</p>
+                <p className="text-lg leading-lg px-4">
+                  {teamMateData?.bio || ""}
+                </p>
               </div>
-             <SocialIcons teamMateData={teamMateData} paint="#558830" size="33"/>
+              <SocialIcons
+                teamMateData={teamMateData}
+                paint="#558830"
+                size="33"
+              />
             </div>
-            
           </div>
         </div>
       </section>
     </Container>
   );
 }
-
-
 
 export async function getStaticProps(ctx) {
   const { teamMember } = ctx.params;

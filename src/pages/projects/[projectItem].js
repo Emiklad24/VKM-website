@@ -12,14 +12,14 @@ function SingleProject({ project }) {
     (teamProject) => teamProject.slug === projectItem
   );
 
-  const clients = currentProjectInView[0].logo
-  const publications = currentProjectInView[0].publications
-  console.log("public", publications)
-  console.log(clients)
+  const clients = currentProjectInView[0].logo;
+  const publications = currentProjectInView[0].publications;
+
   return (
     <Container
-      title={`${currentProjectInView?.[0]?.name || ""} - ${currentProjectInView?.[0]?.desc || ""
-        }`}
+      title={`${currentProjectInView?.[0]?.name || ""} - ${
+        currentProjectInView?.[0]?.desc || ""
+      }`}
       description={currentProjectInView?.[0]?.desc || ""}
     >
       <section className="py-20 font-sans">
@@ -29,10 +29,8 @@ function SingleProject({ project }) {
               {currentProjectInView?.[0].name || ""}
             </h2>
             <div className="flex flex-col justify-center items-center">
-
               <div className="flex flex-col lg:flex-row items-center justify-center lg:w-2/5 ">
                 {clients?.map((client, idx) => (
-
                   <div key={client?.name || ""} className="lg:mr-4">
                     <Image
                       key={client?.idx || ""}
@@ -41,16 +39,10 @@ function SingleProject({ project }) {
                       layout="intrinsic"
                       width={100}
                       height={100}
-
                     />
                   </div>
-
                 ))}
               </div>
-
-
-
-
 
               <div>
                 <h3 className="text-2xl font-bold font-heading text-mantis-700">
@@ -62,7 +54,6 @@ function SingleProject({ project }) {
           </div>
         </div>
         <div className=" mb-12 lg:mb-16 flex justify-center align-center p-4 ">
-
           <div className=" rounded-xl p-0 ">
             <Image
               className="rounded-xl"
@@ -71,7 +62,6 @@ function SingleProject({ project }) {
               layout="intrinsic"
               width={1000}
               height={700}
-
             />
           </div>
         </div>
