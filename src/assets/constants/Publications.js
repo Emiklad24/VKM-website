@@ -1,11 +1,70 @@
 export const publicationsWorks = [
   {
+    team: "	Okunlola DA, Makinde OA, Babalola S",
+    title:
+      "Socio-economic Correlates of Marital Status and Marriage Timing Among Adult Men in Nigeria",
+    citation:
+      "J Fam Issues [Internet]. 2022 Jan 6 [cited 2022 Jan 7];",
+    link: "https://journals.sagepub.com/eprint/HA2GMR4IUG9MIDB4JAYZ/full",
+  },
+  {
+    team: "Makinde OA, Akinyemi JO, Ntoimo LF, Ajaero CK, Ononokpono D, Banda PC, Adewoyin Y, Petlele R, Ugwu H, Odimegwu CO.",
+    title:
+      "2021. Risk assessment for COVID-19 transmission at household level in sub-Saharan Africa: evidence from DHS. ",
+    citation:
+      "Genus. 77(1):24. ",
+    link: "https://doi.org/10.1186/s41118-021-00130-w",
+  },
+  {
+    team: "Makinde, O., Mgbachi, I., & Salau, A. ",
+    title:
+      "(2021). 341The birth of an electronic chronic disease registry bank in Nigeria. ",
+    citation:
+      "International Journal of Epidemiology, 50(Supplement_1).  ",
+    link: "https://doi.org/10.1093/ije/dyab168.413",
+  },
+  {
+    team: "Ebong US, Makinde OA. ",
+    title:
+      "Determinants of treatment seeking behaviour for sexually transmitted infections in Nigeria.",
+    citation:
+      "African Journal of Reproductive Health [Internet]. 2021 Jun 28 [cited 2021 Jul 1];25(3). ",
+    link: "https://ajrh.info/index.php/ajrh/article/view/2783",
+  },
+  {
+    team: "Makinde OA, Odimegwu CO, Udoh MO, et al. ",
+    title:
+      "Death registration in Nigeria: a systematic literature review of its performance and challenges.",
+    citation:
+      "Glob Health Action. 2020;13(1):1811476. ",
+    link: "https://doi.org/10.1080/16549716.2020.1811476",
+    project: "Research on Civil Registration and Vital Statistics (CRVS) System"
+  },
+  {
+    team: "Oyediran KA, Makinde OA, Adelakin O.  ",
+    title:
+      "The Role of Telemedicine in Addressing Access to Sexual and Reproductive Health Services in sub-Saharan Africa during the COVID-19 Pandemic. ",
+    citation:
+      "Afr J Reprod Health [Internet]. 2020 Aug 11 [cited 2020 Aug 13];24(2). ",
+    link: "https://ajrh.info/index.php/ajrh/article/view/2289",
+  },
+  {
+    team: "Makinde OA, Odimegwu CO.",
+    title:
+      "Compliance with disease surveillance and notification by private health providers in South-West Nigeria.",
+    citation:
+      ". Pan Afr Med J [Internet]. 2020 Apr 13 [cited 2020 Apr 13];35(114). ",
+    link: "http://www.panafrican-med-journal.com/content/article/35/114/full/",
+    project: "Research on Global Health Security in Nigeria"
+  },
+  {
     team: "Makinde OA, Odimegwu CO, OlaOlorun FM.",
     title:
       "A unique opportunity to use football to improve birth registration awareness and completeness in Nigeria.",
     citation:
       "Br J Sports Med [Internet]. 2018 Dec 1 [cited 2018 Nov 21];52(23):1529–30.",
     link: "https://bjsm.bmj.com/content/52/23/1529",
+    project: "Research on Civil Registration and Vital Statistics (CRVS) System"
   },
   {
     team: "Meribole EC, Makinde OA, Oyemakinde A, Oyediran KA, Atobatele A, Fadeyibi FA, et al.",
@@ -14,6 +73,7 @@ export const publicationsWorks = [
     citation:
       "Health Information & Libraries Journal [Internet]. 2018 Dec 1 [cited 2018 Nov 30];35(4):285–97.",
     link: "https://onlinelibrary.wiley.com/doi/abs/10.1111/hir.12240",
+    project: "Policy and Strategic Plan Development and Research"
   },
   {
     team: "Makinde OA, Sule A, Ayankogbe O, Boone D.",
@@ -22,6 +82,7 @@ export const publicationsWorks = [
     citation:
       "The International Journal of Health Planning and Management [Internet]. 2018 Oct 1 [cited 2018 Nov 23];33(4):e1179–92.",
     link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/hpm.2603",
+    project: "i)Health Information Development and Strengthening   ii)Policy and Strategic Plan Development and Research"
   },
   {
     team: "Makinde OA, Meribole EC, Oyediran KA, Fadeyibi FA, Cunningham M, Hussein-Fajugbagbe Y, et al.",
@@ -38,6 +99,7 @@ export const publicationsWorks = [
     citation:
       "Pan African Medical Journal [Internet]. 2018 Sep 11 [cited 2018 Sep 11];31.",
     link: "http://www.panafrican-med-journal.com/content/article/31/22/full/",
+    project: "Research on Global Health Security in Nigeria"
   },
   {
     team: "Makinde OA, Odimegwu CO.",
@@ -45,6 +107,8 @@ export const publicationsWorks = [
       "Status of Legislation and Factors affecting Disease Surveillance in Nigeria: A qualitative inquiry. ",
     citation: "Online Journal of Public Health Informatics [Internet].",
     link: "http://ojphi.org/ojs/index.php/ojphi/article/view/8649",
+    project: "Research on Global Health Security in Nigeria"
+
   },
   {
     team: "Makinde OA.",
@@ -59,6 +123,7 @@ export const publicationsWorks = [
     citation:
       "In: Proceedings of the International Society for Disease Surveillance Conference. Florida, USA; 2018.",
     link: "",
+
   },
   {
     team: "The Federal Ministry of Women Affairs and Social Development, The University of Edinburgh, Viable Knowledge Masters, UNICEF Nigeria.",
@@ -67,6 +132,7 @@ export const publicationsWorks = [
     citation:
       "The Drivers of Violence Affecting Children in Nigeria: Synthesis of Findings. Abuja, Nigeria; 2018.",
     link: "",
+    project: "UNICEF Nigeria – Drivers of Violence Against Children"
   },
   {
     team: "Makinde OA, Onyemelukwe C, Onigbanjo-Williams A, Oyediran KA, Odimegwu CO.",
@@ -95,6 +161,7 @@ export const publicationsWorks = [
       "Baby Factories in Nigeria: Starting the Discussion Toward a National Prevention Policy.",
     citation: "Trauma Violence Abuse [Internet]. 2017 Jan;18(1):98–105.",
     link: "http://tva.sagepub.com/content/18/1/98.abstract",
+    project: "Policy and Strategic Plan Development and Research"
   },
   {
     team: "Makinde OA, Odimegwu CO, Abdulmalik JO, Babalola SO, Fawole OI.",
@@ -132,6 +199,7 @@ export const publicationsWorks = [
     citation:
       "Online Journal of Public Health Informatics [Internet]. 2016 Sep [cited 2016 Sep 16];8(2).",
     link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5266756/",
+    project: "Health Information Development and Strengthening"
   },
   {
     team: "Makinde OA.",
@@ -146,6 +214,7 @@ export const publicationsWorks = [
       "Trends in the completeness of birth registration in Nigeria: 2002-2010.",
     citation: "Demographic Research [Internet]. 2016 Aug 17;35(12):315–38.",
     link: "http://www.demographic-research.org/volumes/vol35/12/",
+    project: "Research on Civil Registration and Vital Statistics (CRVS) System"
   },
   {
     team: "Makinde OA, Mami MI, Oweghoro BM, Oyediran KA, Mullen S.",
@@ -153,6 +222,7 @@ export const publicationsWorks = [
       "Investing in health information management: The right people, in the right place, at the right time.",
     citation: "HIM J [Internet]. 2016 Aug 1;45(2):90–6.",
     link: "http://him.sagepub.com/content/45/2/90",
+    project: "Health Information Development and Strengthening"
   },
   {
     team: "Makinde OA. ",
@@ -169,6 +239,7 @@ export const publicationsWorks = [
     citation:
       "Online Journal of Public Health Informatics [Internet]. 2016 Mar 24;8(1).",
     link: "http://ojphi.org/ojs/index.php/ojphi/article/view/6554",
+    project: "Research on Global Health Security in Nigeria"
   },
   {
     team: "Makinde OA.",
@@ -177,6 +248,7 @@ export const publicationsWorks = [
     citation:
       "The Journal of Infection in Developing Countries [Internet]. 2016 Feb 28;10(02):199–200.",
     link: "http://www.jidc.org/index.php/journal/article/view/8148",
+    project: "Research on Global Health Security in Nigeria"
   },
   {
     team: "Makinde O",
@@ -230,6 +302,7 @@ export const publicationsWorks = [
     title: "Development of a Master Health Facility List in Nigeria.",
     citation: "Online J Public Health Inform [Internet]. 2014 Oct 16;6(2).",
     link: "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4235326/",
+    project: "Health Information Development and Strengthening"
   },
   {
     team: "Makinde OA, Brown B, Olaleye O.",

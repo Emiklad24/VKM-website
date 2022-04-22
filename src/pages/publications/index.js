@@ -4,6 +4,9 @@ import Hero from "@components/Hero/Hero";
 import { publicationsWorks } from "@assets/constants/Publications";
 
 const publications = () => {
+  const project = publicationsWorks.map((work, index) => (work.project2))
+  const hello = project.map((project, idx) => (project))
+  console.log(hello)
   return (
     <div>
       <Container
@@ -53,6 +56,19 @@ const publications = () => {
                     Read : <a href={publication?.team || ""}>Here</a>
                   </p> */}
                 </div>
+                {publication.project ? <div className="mb-4 sm:mb-0">
+                  <div className="space-y-1 text-xs font-semibold tracking-wide uppercase">
+                    <p
+                      className="transition-colors duration-200 text-mantis-700 hover:text-deep-purple-800"
+                      aria-label="Category"
+                    >
+                      Related Project
+                    </p>
+                    <p className="text-mantis-600 lg:w-32">
+                      {publication?.project || ""}
+                    </p>
+                  </div>
+                </div> : ""}
               </div>
             </div>
           ))}
