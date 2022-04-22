@@ -1,5 +1,61 @@
 export const publicationsWorks = [
   {
+    team: "	Okunlola DA, Makinde OA, Babalola S",
+    title:
+      "Socio-economic Correlates of Marital Status and Marriage Timing Among Adult Men in Nigeria",
+    citation:
+      "J Fam Issues [Internet]. 2022 Jan 6 [cited 2022 Jan 7];",
+    link: "https://journals.sagepub.com/eprint/HA2GMR4IUG9MIDB4JAYZ/full",
+  },
+  {
+    team: "Makinde OA, Akinyemi JO, Ntoimo LF, Ajaero CK, Ononokpono D, Banda PC, Adewoyin Y, Petlele R, Ugwu H, Odimegwu CO.",
+    title:
+      "2021. Risk assessment for COVID-19 transmission at household level in sub-Saharan Africa: evidence from DHS. ",
+    citation:
+      "Genus. 77(1):24. ",
+    link: "https://doi.org/10.1186/s41118-021-00130-w",
+  },
+  {
+    team: "Makinde, O., Mgbachi, I., & Salau, A. ",
+    title:
+      "(2021). 341The birth of an electronic chronic disease registry bank in Nigeria. ",
+    citation:
+      "International Journal of Epidemiology, 50(Supplement_1).  ",
+    link: "https://doi.org/10.1093/ije/dyab168.413",
+  },
+  {
+    team: "Ebong US, Makinde OA. ",
+    title:
+      "Determinants of treatment seeking behaviour for sexually transmitted infections in Nigeria.",
+    citation:
+      "African Journal of Reproductive Health [Internet]. 2021 Jun 28 [cited 2021 Jul 1];25(3). ",
+    link: "https://ajrh.info/index.php/ajrh/article/view/2783",
+  },
+  {
+    team: "Makinde OA, Odimegwu CO, Udoh MO, et al. ",
+    title:
+      "Death registration in Nigeria: a systematic literature review of its performance and challenges.",
+    citation:
+      "Glob Health Action. 2020;13(1):1811476. ",
+    link: "https://doi.org/10.1080/16549716.2020.1811476",
+  },
+  {
+    team: "Oyediran KA, Makinde OA, Adelakin O.  ",
+    title:
+      "The Role of Telemedicine in Addressing Access to Sexual and Reproductive Health Services in sub-Saharan Africa during the COVID-19 Pandemic. ",
+    citation:
+      "Afr J Reprod Health [Internet]. 2020 Aug 11 [cited 2020 Aug 13];24(2). ",
+    link: "https://ajrh.info/index.php/ajrh/article/view/2289",
+  },
+  {
+    team: "Makinde OA, Odimegwu CO.",
+    title:
+      "Compliance with disease surveillance and notification by private health providers in South-West Nigeria.",
+    citation:
+      ". Pan Afr Med J [Internet]. 2020 Apr 13 [cited 2020 Apr 13];35(114). ",
+    link: "http://www.panafrican-med-journal.com/content/article/35/114/full/",
+  },
+  {
     team: "Makinde OA, Odimegwu CO, OlaOlorun FM.",
     title:
       "A unique opportunity to use football to improve birth registration awareness and completeness in Nigeria.",
