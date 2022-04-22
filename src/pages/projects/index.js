@@ -7,13 +7,12 @@ import Hero from "@components/Hero/Hero";
 import ProjectCard from "@components/pagesUtil/Project-Util/ProjectCard";
 import Pagination from "@components/Pagination/Pagination";
 
-
 const projects = () => {
   return (
     <Container
       title="Projects - Projects are perfectly done"
       description="Our team provides a consultative approach to problem solving. We are a team of experienced professionals who care about your success"
-    > 
+    >
       <Hero
         headerPix="/projects.webp"
         title={"Projects are perfectly  "}
@@ -42,14 +41,14 @@ const projects = () => {
           </h2>
 
           <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            Our expertise spans health systems strengthening, electronic health
+            records, financial management,monitoring and evaluation, and project
+            management.
           </p>
         </div>
 
-        <ProjectCard/>
+        <ProjectCard />
         {/* <Pagination/> */}
-       
       </div>
     </Container>
   );
