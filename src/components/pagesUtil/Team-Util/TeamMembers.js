@@ -30,10 +30,10 @@ const TeamMembers = ({ teamMates }) => {
             team
           </RoughNotation>
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
+        {/* <p className="text-base text-gray-700 md:text-lg">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque rem aperiam, eaque ipsa quae.
-        </p>
+        </p> */}
       </div>
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <Link href={`/team/${docsDetails?.slug}` || ""} passHref>
