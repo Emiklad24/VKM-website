@@ -29,6 +29,7 @@ const TeamMembers = ({ teamMates }) => {
           >
             team
           </RoughNotation>
+          ``
         </h2>
         {/* <p className="text-base text-gray-700 md:text-lg">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
