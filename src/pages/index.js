@@ -19,7 +19,7 @@ export default function Home() {
         subtitle=" With our strong and creative workforce, we customize and implement
       projects in extremely short time interval."
       />
-      <Stats />
+      {/* <Stats /> */}
       <Services />
       <Projects />
       <Partners />
