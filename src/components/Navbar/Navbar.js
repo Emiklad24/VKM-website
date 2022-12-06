@@ -15,48 +15,23 @@ const Nav = () => {
           title="Viable Knowledge Masters"
           className="inline-flex items-center"
         >
-          <img src="/vkm_logo.png" alt="" width={25} height={25} />
-          <span className="ml-2 text-lg font-bold tracking-wide uppercase text-mantis-700 hover:text-mantis-900 hidden lg:flex">
+          <img src="/phem-logo.jpg" alt="" width={300} height={300} />
+          {/* <span className="ml-2 text-lg font-bold tracking-wide uppercase text-mantis-700 hover:text-mantis-900 hidden lg:flex">
             Viable Knowledge Masters
-          </span>
-          <span className="ml-2 text-lg font-bold tracking-wide uppercase text-mantis-700 hover:text-mantis-900 lg:hidden sm:flex">
+          </span> */}
+          {/* <span className="ml-2 text-lg font-bold tracking-wide uppercase text-mantis-700 hover:text-mantis-900 lg:hidden sm:flex">
             VKM
-          </span>
+          </span> */}
         </a>
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <li>
-            <Link href="/about" aria-label="About" title="About" passHref>
+            <Link href="/contact" aria-label="About" title="About" passHref>
               <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                About
+                Contact
               </span>
             </Link>
           </li>
-          <li>
-            <Link
-              href="/team"
-              aria-label="Team"
-              title="Team"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
-              passHref
-            >
-              <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                Team
-              </span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/projects"
-              aria-label="Projects"
-              title="Projects"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
-              passHref
-            >
-              <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                Projects
-              </span>
-            </Link>
-          </li>
+
           <li>
             <Link
               href="/publications"
@@ -67,6 +42,19 @@ const Nav = () => {
             >
               <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
                 Publications
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/events"
+              aria-label="publications"
+              title="publications"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
+              passHref
+            >
+              <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                Events
               </span>
             </Link>
           </li>
@@ -104,11 +92,16 @@ const Nav = () => {
                       title="Viable Knowledge Masters"
                       className="inline-flex items-center"
                     >
-                      <img src="/vkm_logo.png" alt="" width={25} height={25} />
+                      <img
+                        src="/phem-logo.jpg"
+                        alt=""
+                        width={300}
+                        height={300}
+                      />
 
-                      <span className="ml-2 text-xl font-bold tracking-wide uppercase text-mantis-700">
+                      {/* <span className="ml-2 text-xl font-bold tracking-wide uppercase text-mantis-700">
                         VKM
-                      </span>
+                      </span> */}
                     </a>
                   </div>
                   <div>
@@ -131,40 +124,14 @@ const Nav = () => {
                   <ul className="space-y-4">
                     <li>
                       <Link
-                        href="/about"
-                        aria-label="About"
-                        title="About"
+                        href="/contact"
+                        aria-label="Contact"
+                        title="Contact"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
                         passHref
                       >
                         <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                          About
-                        </span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/team"
-                        aria-label="Team"
-                        title="Team"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
-                        passHref
-                      >
-                        <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                          Team
-                        </span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/projects"
-                        aria-label="Projects"
-                        title="Projects"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
-                        passHref
-                      >
-                        <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                          Projects
+                          Contact
                         </span>
                       </Link>
                     </li>
@@ -177,11 +144,23 @@ const Nav = () => {
                         passHref
                       >
                         <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
-                          Publications
+                          publications
                         </span>
                       </Link>
                     </li>
-
+                    <li>
+                      <Link
+                        href="/events"
+                        aria-label="Events"
+                        title="Events"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-mantis-700"
+                        passHref
+                      >
+                        <span className="font-medium tracking-wide text-mantis-700 transition-colors duration-200 hover:text-mantis-700  cursor-pointer">
+                          Events
+                        </span>
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
               </div>

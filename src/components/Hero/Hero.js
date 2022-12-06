@@ -31,7 +31,9 @@ export const Hero = ({
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
           <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
             <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-[180%]">
-              <span className="text-mantis-700 text-5xl">{title}</span>
+              <span className="text-mantis-700 text-5xl">
+                Lorem ipsum dolor.
+              </span>
               <br className="hidden md:block" />
               <RoughNotation
                 type="highlight"
@@ -44,11 +46,14 @@ export const Hero = ({
                 show={true}
                 animationDelay={500}
               >
-                <strong className="text-5xl">{titleHighlighted}</strong>
+                <strong className="text-5xl">Lorem</strong>
               </RoughNotation>
             </h2>
             <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-              {subtitle}
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit est
+              libero illo excepturi sunt, enim, earum illum, eligendi
+              perspiciatis assumenda ducimus deleniti cupiditate officia
+              veritatis!
             </p>
           </div>
         </div>

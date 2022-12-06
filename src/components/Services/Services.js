@@ -45,152 +45,24 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        <motion.div
-          className="flex flex-col justify-between p-5 border rounded shadow-md"
-          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
-              <BiBriefcase className="text-mantis-700" size={30} />
-            </div>
-            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
-              Project implementation
-            </h6>
-            <p className="mb-3 text-sm text-gray-900 leading-8">
-              VKM has project managers with several years of experience in
-              implementing various health and development projects around the
-              world. VKM has the capacity to implement activities for clients
-              across Nigeria.
-            </p>
-          </div>
-          <a
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
-          >
-            Learn more
-          </a>
-        </motion.div>
-
-        <motion.div
-          className="flex flex-col justify-between p-5 border rounded shadow-md"
-          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
-              <BiSearchAlt className="text-mantis-700" size={30} />
-            </div>
-            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
-              Research
-            </h6>
-            <p className="mb-3 text-sm text-gray-900 leading-8">
-              VKM has highly experienced researchers who collaborate with other
-              researchers from all parts of the world to produce high quality
-              research outputs that contribute to knowledge.
-            </p>
-          </div>
-          <a
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700 hover:text-mantis-900"
-          >
-            Learn more
-          </a>
-        </motion.div>
-
-        <motion.div
-          className="flex flex-col justify-between p-5 border rounded shadow-md"
-          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
-              <FaRegHospital className="text-mantis-700" size={30} />
-            </div>
-            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
-              Health Systems Strengthening
-            </h6>
-            <p className="mb-3 text-sm text-gray-900 leading-8">
-              Providing health systems strengthening (HSS) support across the
-              six building blocks of HSS.
-            </p>
-          </div>
-          <a
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
-          >
-            Learn more
-          </a>
-        </motion.div>
-        <motion.div
-          className="flex flex-col justify-between p-5 border rounded shadow-md"
-          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
-              <FaChild className="text-mantis-700" size={30} />
-            </div>
-            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
-              Child Abuse and Human Trafficking
-            </h6>
-            <p className="mb-3 text-sm text-gray-900  leading-8">
-              Providing expert advise on the magnitude and status of baby
-              factories and infant trafficking in Nigeria.
-            </p>
-          </div>
-          <a
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700 "
-          >
-            Learn more
-          </a>
-        </motion.div>
-      </div>
-
       <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-3 my-10">
         <motion.div
-          className="flex flex-col justify-between p-5 border rounded shadow-md "
-          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
-              <SiPowerbi className="text-mantis-700" size={30} />
-            </div>
-            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
-              Health Informatics Project Management.
-            </h6>
-            <p className="mb-3 text-sm text-gray-900  leading-8">
-              Providing highly knowledgeable specialists to support
-              organizations to collect requirements, build customized systems
-              and deploy information systems locally or online.
-            </p>
-          </div>
-          <a
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
-          >
-            Learn more
-          </a>
-        </motion.div>
-        <motion.div
           className="flex flex-col justify-between p-5 border rounded shadow-md"
           whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
           whileTap={{ scale: 0.95 }}
         >
           <div>
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
-              <AiOutlineControl className="text-mantis-700" size={30} />
+              <MdReduceCapacity className="text-mantis-700" size={30} />
             </div>
             <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
-              Monitoring and Evaluation Experts.
+              Facilities management, and Operations
             </h6>
             <p className="mb-3 text-sm text-gray-900  leading-8">
-              VKM has experts in monitoring and evaluation (M&E) who can help
-              organizations to build their M&E systems and improve the
-              performance of their organizations.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat,
+              asperiores nam. Ex tenetur illum vitae placeat expedita autem
+              doloremque! Officiis saepe repellat nisi soluta voluptate
+              consequatur, fuga eveniet deleniti vel optio accusamus.
             </p>
           </div>
           <a
@@ -210,7 +82,190 @@ const Services = () => {
               <MdReduceCapacity className="text-mantis-700" size={30} />
             </div>
             <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
-              Capacity Building.
+              Policies, Plans Procedure, and Technology
+            </h6>
+            <p className="mb-3 text-sm text-gray-900  leading-8">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat,
+              asperiores nam. Ex tenetur illum vitae placeat expedita autem
+              doloremque! Officiis saepe repellat nisi soluta voluptate
+              consequatur, fuga eveniet deleniti vel optio accusamus.
+            </p>
+          </div>
+          <a
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
+          >
+            Learn more
+          </a>
+        </motion.div>
+        <motion.div
+          className="flex flex-col justify-between p-5 border rounded shadow-md"
+          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <MdReduceCapacity className="text-mantis-700" size={30} />
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
+              Training, Excersing and evaluation.
+            </h6>
+            <p className="mb-3 text-sm text-gray-900  leading-8">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat,
+              asperiores nam. Ex tenetur illum vitae placeat expedita autem
+              doloremque! Officiis saepe repellat nisi soluta voluptate
+              consequatur, fuga eveniet deleniti vel optio accusamus.
+            </p>
+          </div>
+          <a
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
+          >
+            Learn more
+          </a>
+        </motion.div>
+        <motion.div
+          className="flex flex-col justify-between p-5 border rounded shadow-md"
+          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <MdReduceCapacity className="text-mantis-700" size={30} />
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
+              Internal communications, and Information Technology.
+            </h6>
+            <p className="mb-3 text-sm text-gray-900  leading-8">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat,
+              asperiores nam. Ex tenetur illum vitae placeat expedita autem
+              doloremque! Officiis saepe repellat nisi soluta voluptate
+              consequatur, fuga eveniet deleniti vel optio accusamus.
+            </p>
+          </div>
+          <a
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
+          >
+            Learn more
+          </a>
+        </motion.div>
+        <motion.div
+          className="flex flex-col justify-between p-5 border rounded shadow-md"
+          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <MdReduceCapacity className="text-mantis-700" size={30} />
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
+              Crises and emergency risk communication and public information and
+              warning.
+            </h6>
+            <p className="mb-3 text-sm text-gray-900  leading-8">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat,
+              asperiores nam. Ex tenetur illum vitae placeat expedita autem
+              doloremque! Officiis saepe repellat nisi soluta voluptate
+              consequatur, fuga eveniet deleniti vel optio accusamus.
+            </p>
+          </div>
+          <a
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
+          >
+            Learn more
+          </a>
+        </motion.div>
+        <motion.div
+          className="flex flex-col justify-between p-5 border rounded shadow-md"
+          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <MdReduceCapacity className="text-mantis-700" size={30} />
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
+              Surveillance and control
+            </h6>
+            <p className="mb-3 text-sm text-gray-900  leading-8">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat,
+              asperiores nam. Ex tenetur illum vitae placeat expedita autem
+              doloremque! Officiis saepe repellat nisi soluta voluptate
+              consequatur, fuga eveniet deleniti vel optio accusamus.
+            </p>
+          </div>
+          <a
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
+          >
+            Learn more
+          </a>
+        </motion.div>
+        <motion.div
+          className="flex flex-col justify-between p-5 border rounded shadow-md"
+          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <MdReduceCapacity className="text-mantis-700" size={30} />
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
+              Information collection, integration and sharing.
+            </h6>
+            <p className="mb-3 text-sm text-gray-900  leading-8">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat,
+              asperiores nam. Ex tenetur illum vitae placeat expedita autem
+              doloremque! Officiis saepe repellat nisi soluta voluptate
+              consequatur, fuga eveniet deleniti vel optio accusamus.
+            </p>
+          </div>
+          <a
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
+          >
+            Learn more
+          </a>
+        </motion.div>
+        <motion.div
+          className="flex flex-col justify-between p-5 border rounded shadow-md"
+          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <MdReduceCapacity className="text-mantis-700" size={30} />
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
+              Incident management
+            </h6>
+            <p className="mb-3 text-sm text-gray-900  leading-8">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat,
+              asperiores nam. Ex tenetur illum vitae placeat expedita autem
+              doloremque! Officiis saepe repellat nisi soluta voluptate
+              consequatur, fuga eveniet deleniti vel optio accusamus.
+            </p>
+          </div>
+          <a
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-mantis-700"
+          >
+            Learn more
+          </a>
+        </motion.div>
+        <motion.div
+          className="flex flex-col justify-between p-5 border rounded shadow-md"
+          whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-mantis-50">
+              <MdReduceCapacity className="text-mantis-700" size={30} />
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-mantis-700">
+              Coordination and logistical support of field operations
             </h6>
             <p className="mb-3 text-sm text-gray-900  leading-8">
               Providing training on various courses including database
